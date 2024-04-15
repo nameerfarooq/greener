@@ -1,0 +1,23 @@
+.app {
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+  }
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px;
+}

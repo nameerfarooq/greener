@@ -1,0 +1,32 @@
+.Home-page {
+  .slider {
+    width: 100vw;
+    height: 500px;
+    .slide {
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      .inner {
+        position: absolute;
+        bottom: 15%;
+        left: 8%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .button-holder {
+          margin: 20px 0 0 0;
+          display: flex;
+          gap: 20px;
+        }
+      }
+    }
+    .slide1 {
+      background-image: url("/src/assets/images/one.png");
+    }
+    .slide2 {
+      background-image: url("/src/assets/images/two.png");
+    }
+  }
+}

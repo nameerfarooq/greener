@@ -1,3 +1,30 @@
 * {
   font-family: "Rajdhani", sans-serif;
 }
+.text-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  color: var(--whiteColor);
+  line-height: 1.6rem;
+}
+.text-2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.text-3 {
+  font-size: 7rem;
+  line-height: 7rem;
+  font-weight: 700;
+  color: var(--whiteColor);
+  .green {
+    color: var(--primaryColor);
+  }
+}
+.text-4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: var(--whiteColor);
+}
