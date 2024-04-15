@@ -28,3 +28,48 @@
   line-height: 3.2rem;
   color: var(--whiteColor);
 }
+.text-5 {
+  font-size: 4.6rem;
+  font-weight: 700;
+  color: var(--darkGreyColor);
+  .green {
+    color: var(--primaryColor);
+  }
+}
+.text-6 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--darkGreyColor);
+  transition: all 0.3s ease-in-out;
+}
+.text-7 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--greyColor);
+  line-height: 2.8rem;
+}
+.text-8 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--blackColor);
+  line-height: 2rem;
+}
+.text-9 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+.text-10 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--whiteColor);
+}
+.text-11 {
+  font-family: "Rubik", sans-serif;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primaryColor);
+}

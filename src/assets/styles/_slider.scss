@@ -1,12 +1,11 @@
 .Home-page {
   .slider {
-    width: 100vw;
-    height: 500px;
     .slide {
       height: 100vh;
       background-position: center;
       background-size: cover;
       position: relative;
+
       .inner {
         position: absolute;
         bottom: 15%;

@@ -5,6 +5,7 @@ import ButtonStyle2 from "../Buttons/ButtonStyle2";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import MovingText from "react-moving-text";
 
 // import required modules
 import { Navigation, Autoplay } from "swiper/modules";
@@ -14,7 +15,7 @@ export default function Slider() {
     <div className="slider">
       <Swiper
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         loop={true}
@@ -26,8 +27,18 @@ export default function Slider() {
           <div className="slide slide1">
             <div className="inner">
               <div className="text-3">
-                Paving the way to a <span className="green"> Greener </span>
-                Solution
+                <MovingText
+                  type="fadeInFromLeft"
+                  duration="1000ms"
+                  delay="index * 100ms"
+                  direction="normal"
+                  timing="ease-in-out"
+                  iteration="1"
+                  fillMode="none"
+                >
+                  Paving the way to a <span className="green"> Greener </span>
+                  Solution
+                </MovingText>
               </div>
               <div className="text-4">
                 Our commitment to renewable energy paves the way for a greener
@@ -44,10 +55,20 @@ export default function Slider() {
         <SwiperSlide>
           <div className="slide slide2">
             <div className="inner">
-              <div className="text-3">
-                Sustainable Solutions to Reflect{" "}
-                <span className="green"> Brighter </span>
-              </div>
+              <MovingText
+                type="fadeInFromLeft"
+                duration="1000ms"
+                delay="index * 100ms"
+                direction="normal"
+                timing="ease-in-out"
+                iteration="1"
+                fillMode="none"
+              >
+                <div className="text-3">
+                  Sustainable Solutions to Reflect{" "}
+                  <span className="green"> Brighter </span>
+                </div>
+              </MovingText>
               <div className="text-4">
                 With our innovative approach, we're not just reflecting
                 brighter, but also radiating sustainability, offering solutions
