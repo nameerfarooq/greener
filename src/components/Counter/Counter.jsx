@@ -42,7 +42,13 @@ const Counter = () => {
           <div className="right">
             <div className="text-10">
               {" "}
-              <CountUp scrollSpyOnce={true} duration={2} end={3400} enableScrollSpy={true} scrollSpyDelay={500} />
+              <CountUp
+                scrollSpyOnce={true}
+                duration={2}
+                end={3400}
+                enableScrollSpy={true}
+                scrollSpyDelay={500}
+              />
               +
             </div>
             <div className="text-11">Customer Delight</div>
@@ -121,7 +127,14 @@ const Counter = () => {
           </div>
           <div className="right">
             <div className="text-10">
-              <CountUp scrollSpyOnce={true} duration={2} end={400} enableScrollSpy={true} scrollSpyDelay={500} />+
+              <CountUp
+                scrollSpyOnce={true}
+                duration={2}
+                end={400}
+                enableScrollSpy={true}
+                scrollSpyDelay={500}
+              />
+              +
             </div>
             <div className="text-11">Projects Completed</div>
           </div>
@@ -151,7 +164,14 @@ const Counter = () => {
           </div>
           <div className="right">
             <div className="text-10">
-              <CountUp scrollSpyOnce={true} duration={2} end={30} enableScrollSpy={true} scrollSpyDelay={500} />+
+              <CountUp
+                scrollSpyOnce={true}
+                duration={2}
+                end={30}
+                enableScrollSpy={true}
+                scrollSpyDelay={500}
+              />
+              +
             </div>
             <div className="text-11">Awards Win</div>
           </div>
@@ -217,7 +237,14 @@ const Counter = () => {
           </div>
           <div className="right">
             <div className="text-10">
-              <CountUp scrollSpyOnce={true} duration={2} end={120} enableScrollSpy={true} scrollSpyDelay={500} />+
+              <CountUp
+                scrollSpyOnce={true}
+                duration={2}
+                end={120}
+                enableScrollSpy={true}
+                scrollSpyDelay={500}
+              />
+              +
             </div>
             <div className="text-11">Skilled Workforce</div>
           </div>

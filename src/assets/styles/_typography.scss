@@ -73,3 +73,25 @@
   font-weight: 400;
   color: var(--primaryColor);
 }
+.text-12 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--whiteColor);
+}
+.text-13 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--secondaryColor);
+}
+.text-14 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--whiteColor);
+  line-height: 2.8rem;
+}.text-15 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--secondaryColor);
+}
