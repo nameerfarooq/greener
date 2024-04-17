@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--secondaryColor);
+  .inner {
+    padding: 2% 3%;
+    .row1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      padding: 3% 0;
+      border-bottom: 1px solid rgb(38, 90, 38);
+      .box {
+        @include centerAll;
+        gap: 20px;
+        flex: 1;
+        .left {
+          @include centerAll;
+          padding: 20px;
+          border-radius: 20px;
+          background-color: var(--whiteColor);
+          img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+          }
+          .right {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+        }
+      }
+    }
+  }
+}
