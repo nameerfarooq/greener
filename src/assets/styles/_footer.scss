@@ -1,5 +1,9 @@
 .footer {
   background-color: var(--secondaryColor);
+  background-image: url("/src/assets/images/footerbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
   .inner {
     padding: 2% 3%;
     .row1 {
