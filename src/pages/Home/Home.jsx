@@ -21,7 +21,7 @@ const Home = () => {
       <Marquee gradient={true} loop={0} pauseOnHover={true}>
         <div className="marquee">
           HEAL THE WORLD / EFFICIENCY & POWER / GENERATE YOUR OWN POWER / REAP
-          THE RETURNS / GREENER PAKISTAN
+          THE RETURNS / GREENER PAKISTAN /
         </div>
       </Marquee>
       <Footer />

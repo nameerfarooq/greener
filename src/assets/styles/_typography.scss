@@ -106,4 +106,21 @@
   font-size: 1.6rem;
   font-weight: 400;
   color: var(--whiteColor);
+  line-height: 2.6rem;
+}
+.text-18 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--whiteColor);
+  line-height: 1.6rem;
+  &:hover {
+    color: var(--primaryColor);
+  }
+}
+.text-19 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--blackColor);
 }
