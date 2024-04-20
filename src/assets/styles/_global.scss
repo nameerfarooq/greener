@@ -174,6 +174,87 @@ a {
     }
   }
 }
+.project-section {
+  width: 100%;
+  .inner {
+    @include centerAll;
+    &.reversed {
+      flex-direction: row-reverse !important;
+      .image1 {
+        background-image: url("../images/g.jpg") !important;
+      }
+      .image2 {
+        background-image: url("../images/h.jpg") !important;
+      }
+    }
+    gap: 50px;
+    margin: 10% auto;
+    width: 85%;
+
+    .left {
+      position: relative;
+      width: 48%;
+      height: 500px;
+      .image1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../images/e.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 450px;
+        height: 430px;
+        z-index: 3;
+      }
+      .image3 {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-image: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/about-right-shape.svg");
+        background-size: cover;
+        background-position: center;
+        width: 105px;
+        height: 280px;
+        z-index: 1;
+      }
+      .image2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url("../images/f.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 300px;
+        height: 230px;
+        z-index: 4;
+        border: 8px solid var(--whiteColor);
+      }
+    }
+    .right {
+      width: 52%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .points {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .point {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .icon img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}
 .solution-types {
   background-color: var(--lightBackgroundColor);
   .inner {
@@ -435,7 +516,128 @@ a {
         &:hover {
           transform: rotate(1deg);
           scale: 1.05;
+          background-color: var(--lightBackgroundColor);
         }
+      }
+    }
+  }
+}
+
+.services-holder {
+  .inner {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    .service-card {
+      border-radius: 15px;
+      padding: 20px;
+      width: 380px;
+      background-color: var(--lightBackgroundColor);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+      &:hover img {
+        scale: 1.3;
+      }
+      &:hover {
+        box-shadow: 2px 2px 20px rgb(218, 218, 218);
+      }
+      .image-holder {
+        overflow: hidden;
+        border-radius: 15px;
+        width: 100%;
+        height: 210px;
+        img {
+          width: 100%;
+          height: 210px;
+          object-fit: cover;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.our-projects {
+  .inner {
+    padding: 5% 0 0 0;
+    @include centerAll;
+    flex-direction: column;
+  }
+
+  .points {
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+  .point {
+    width: auto !important;
+  }
+}
+
+.products-page {
+  .inner {
+    padding: 5% 0 0 0;
+    @include centerAll;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.elc {
+  .inner {
+    padding: 5%;
+    .calculator {
+      margin: 5% auto;
+      .col1,
+      .col2,
+      .col3,
+      .col4 {
+        width: 200px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+
+      .headerRow {
+        background-color: var(--secondaryColor);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 30px;
+        border-radius: 30px;
+      }
+      .rows {
+        margin: 1% auto;
+        background-color: var(--lightBackgroundColor);
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 30px;
+        border-radius: 30px;
+        select {
+          width: 100px;
+          height: 30px;
+          font-family: "Rubik", sans-serif;
+          font-size: 1.4rem;
+          margin-right: 20px;
+        }
+        .right {
+          input {
+            width: 100px;
+            height: 27px;
+            font-family: "Rubik", sans-serif;
+            font-size: 1.4rem;
+          }
+        }
+      }
+      .total-row {
+        background-color: var(--secondaryColor);
+        display: flex;
+        justify-content: center;
+        padding: 10px 30px;
+        border-radius: 30px;
       }
     }
   }

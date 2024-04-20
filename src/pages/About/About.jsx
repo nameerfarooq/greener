@@ -4,15 +4,12 @@ import Features from "../../components/SolutionTypes/Features";
 import WorkProcess from "../../components/WorkProcess/WorkProcess";
 import Counter from "../../components/Counter/Counter";
 import Testimonials from "../../components/Testimonials/Testimonials";
+import HeroSection from "../../components/HeroSection";
 
 const About = () => {
   return (
     <div className="about-page">
-      <div className="hero-section">
-        <div className="inner">
-          <div className="text-20">About us</div>
-        </div>
-      </div>
+      <HeroSection text={"About Us"} />
       <AboutSection />
       <Features />
       <WorkProcess />

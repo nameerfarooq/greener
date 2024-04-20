@@ -4,6 +4,9 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/HeaderFooter/Footer";
 import Marquee from "react-fast-marquee";
 import About from "./pages/About/About";
+import Services from "./pages/Services/Services";
+import Products from "./pages/Products/Products";
+import ELC from "./pages/ELC/ELC";
 const App = () => {
   return (
     <div className="app">
@@ -13,9 +16,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<>services</>} />
-          <Route path="/products" element={<>products</>} />
-          <Route path="/elc" element={<>energy load calculator</>} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/elc" element={<ELC />} />
           <Route path="/contact" element={<>contact</>} />
           <Route path="/feedback" element={<>feedback</>} />
         </Routes>
