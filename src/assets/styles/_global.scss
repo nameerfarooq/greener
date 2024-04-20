@@ -198,7 +198,7 @@ a {
         background-size: cover;
         transition: all 0.3s ease-in-out;
         &:hover {
-          scale: 1.05;
+          // scale: 1.05;
         }
         &:hover .white-layer {
           top: -250px;
@@ -361,4 +361,82 @@ a {
   font-weight: 700;
   -webkit-text-stroke-color: var(--primaryColor);
   stroke: var(--primaryColor);
+}
+
+.hero-section {
+  @include centerAll;
+  height: 60vh;
+  background-image: url("../images/herobg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .inner {
+    padding-top: 6%;
+    @include centerAll;
+  }
+}
+
+.work-process {
+  .inner {
+    padding: 10% 5%;
+    @include centerAll;
+    gap: 60px;
+    flex-direction: column;
+    .box-holder {
+      @include centerAll;
+      gap: 50px;
+      .box {
+        @include centerAll;
+        flex-direction: column;
+        gap: 20px;
+        .image-box {
+          border-radius: 20px;
+          padding: 5%;
+          background-color: var(--primaryColor);
+          position: relative;
+          .number {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            border: 3px solid var(--whiteColor);
+            border-radius: 40px;
+            background-color: var(--primaryColor);
+            padding: 5px 10px;
+          }
+          img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}
+
+.testimonials {
+  background-color: var(--lightBackgroundColor);
+  .inner {
+    padding: 10% 10%;
+    @include centerAll;
+    gap: 70px;
+    flex-direction: column;
+    .testimonial-group {
+      position: relative;
+
+      .item {
+        border-radius: 10px;
+        padding: 20px;
+        background-color: var(--whiteColor);
+        margin: 10px auto;
+        box-shadow: 5px 2px 10px rgb(216, 213, 213);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          transform: rotate(1deg);
+          scale: 1.05;
+        }
+      }
+    }
+  }
 }
