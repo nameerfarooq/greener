@@ -7,6 +7,7 @@ import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
 import Products from "./pages/Products/Products";
 import ELC from "./pages/ELC/ELC";
+import ContactUs from "./pages/Contact/ContactUs";
 const App = () => {
   return (
     <div className="app">
@@ -19,7 +20,7 @@ const App = () => {
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/elc" element={<ELC />} />
-          <Route path="/contact" element={<>contact</>} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="/feedback" element={<>feedback</>} />
         </Routes>
         <Marquee gradient={true} loop={0} pauseOnHover={true}>
