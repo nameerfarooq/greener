@@ -10,14 +10,16 @@ const WhyUs = () => {
           <div className="image3"></div>
         </div>
         <div className="right">
-          <div className="text-9">Why Choose us?</div>
+          <div className="text-9">Who are We?</div>
           <div className="text-5">
             Elevate Your Choice for a <span className="green"> Greener</span>{" "}
             Tomorrow
           </div>
           <div className="text-7">
-            Welcome to a brighter future! Here's why choosing us for your green
-            energy needs is the smartest decision{" "}
+            We are a private entity in Pakistan that specializes in providing
+            greener solar solutions. Our goal is to offer eco-friendly solar
+            energy solutions that are not only cost-effective but also durable,
+            sustainable, and easy to manage.
           </div>
           <div className="points">
             <div className="point">

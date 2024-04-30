@@ -13,13 +13,11 @@ const AboutSection = () => {
             About <span className="green"> Greener</span> Pakistan
           </div>
           <div className="text-7">
-            Greener is more than just a solar company; we're your partners in
-            embracing sustainable energy solutions. Specializing in solar
-            panels, inverters, and battery storage, we aim to revolutionize
-            clean energy adoption while offering cost-efficient solutions to
-            all. We are devoted to ensuring that every component of our
-            technology maximizes energy output, allowing individuals and
-            communities to confidently transition to renewable energy sources.
+            At Greener Pakistan, we're committed to driving the transition
+            towards a cleaner, more sustainable energy future. With our
+            innovative solar energy solutions, we empower individuals and
+            businesses to harness the abundant power of the sun, reducing their
+            carbon footprint and energy costs simultaneously.
           </div>
           <div className="text-7">
             Greener is more than just solar products; it is also an investment

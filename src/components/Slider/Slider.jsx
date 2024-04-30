@@ -9,8 +9,10 @@ import MovingText from "react-moving-text";
 
 // import required modules
 import { Navigation, Autoplay } from "swiper/modules";
+import { useNavigate } from "react-router-dom";
 
 export default function Slider() {
+  const navigate = useNavigate();
   return (
     <div className="slider">
       <Swiper
@@ -46,8 +48,18 @@ export default function Slider() {
                 needs.
               </div>
               <div className="button-holder">
-                <ButtonStyle1 text="Our Services" />
-                <ButtonStyle2 text="Contact Now" />
+                <ButtonStyle1
+                  text="Our Services"
+                  action={() => {
+                    navigate("/services");
+                  }}
+                />
+                <ButtonStyle2
+                  text="Contact Now"
+                  action={() => {
+                    navigate("/contact");
+                  }}
+                />
               </div>
             </div>
           </div>

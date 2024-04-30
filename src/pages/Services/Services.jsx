@@ -1,8 +1,9 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection";
 import a from "../../assets/images/a.jpg";
-import b from "../../assets/images/b.jpg";
+import h from "../../assets/images/h.jpg";
 import c from "../../assets/images/c.jpg";
+import e from "../../assets/images/e.jpg";
 import leaf2 from "../../assets/icons/leaf2.png";
 
 import Features from "../../components/SolutionTypes/Features";
@@ -12,8 +13,8 @@ const Services = () => {
       <HeroSection text={"Services"} />
       <div className="hero2">
         <div className="text-6 center">
-          With our adaptable range of solutions designed to match your specific
-          needs, discover the potential of solar energy.
+          At Greener Pakistan, we offer a comprehensive range of solar energy
+          services tailored to meet your specific needs:
         </div>
         <div className="services-holder">
           <div className="inner">
@@ -22,37 +23,43 @@ const Services = () => {
                 <img src={a} alt="" />
               </div>
 
-              <div className="text-6">On-grid</div>
+              <div className="text-6">Residential Solar</div>
               <div className="text-7">
-                With our on-grid solar systems, you can harness solar energy and
-                connect to the utility easily, allowing you to embrace the
-                future. Reduce your power costs significantly and help create a
-                more environmentally friendly future at the same time.
-              </div>
-            </div>
-            <div className="service-card">
-              <div className="image-holder">
-                <img src={b} alt="" />
-              </div>
-              <div className="text-6">Off-grid</div>
-              <div className="text-7">
-                Our off-grid solar systems offer entire autonomy from the
-                utility grid for those who desire it. Bid farewell to blackouts
-                and problems with the grid and experience continuous access to
-                clean energy.
+                Custom-designed solar power systems for homeowners, helping them
+                save money and reduce their environmental impact.
               </div>
             </div>
             <div className="service-card">
               <div className="image-holder">
                 <img src={c} alt="" />
               </div>
-              <div className="text-6">Hybrid</div>
+              <div className="text-6">Commercial Solar</div>
               <div className="text-7">
-                With our hybrid solar systems, which combine battery energy
-                storage for a dependable power source even on overcast days or
-                at night, you may experience the best of both worlds. Take
-                comfort in the knowledge that, no matter what happens, you'll
-                always have a steady and smooth energy source.
+                Scalable solar solutions for businesses of all sizes, enabling
+                cost savings, sustainability, and corporate social
+                responsibility.
+              </div>
+            </div>
+            <div className="service-card">
+              <div className="image-holder">
+                <img src={e} alt="" />
+              </div>
+              <div className="text-6">Solar Installation</div>
+              <div className="text-7">
+                Professional installation services by our team of certified
+                technicians, ensuring optimal performance and reliability of
+                your solar energy system.
+              </div>
+            </div>
+            <div className="service-card">
+              <div className="image-holder">
+                <img src={h} alt="" />
+              </div>
+              <div className="text-6">Solar Maintenance</div>
+              <div className="text-7">
+                Ongoing maintenance and support to keep your solar panels
+                operating at peak efficiency, maximizing your return on
+                investment.
               </div>
             </div>
           </div>

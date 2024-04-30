@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Header from "./components/HeaderFooter/Header";
 import Home from "./pages/Home/Home";
 import Footer from "./components/HeaderFooter/Footer";
@@ -8,11 +13,16 @@ import Services from "./pages/Services/Services";
 import Products from "./pages/Products/Products";
 import ELC from "./pages/ELC/ELC";
 import ContactUs from "./pages/Contact/ContactUs";
+import Feedback from "./pages/Feedback/Feedback";
+import ScrollToTop from "./ScrollToTop";
+
+
 const App = () => {
   return (
     <div className="app">
       <Router>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -21,7 +31,7 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/elc" element={<ELC />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/feedback" element={<>feedback</>} />
+          <Route path="/feedback" element={<Feedback />} />
         </Routes>
         <Marquee gradient={true} loop={0} pauseOnHover={true}>
           <div className="marquee">

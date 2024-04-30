@@ -268,6 +268,7 @@ const ContactUs = () => {
                     required
                   />
                 </div>
+               
                 {/* <div className="file-desc">
                   <div className="text-7">Front side of previous bill</div>
                   <div className="text-7">Back side of previous bill</div>

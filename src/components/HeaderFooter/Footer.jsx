@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import support from "../../assets/icons/1.png";
 import facebook from "../../assets/icons/facebook.png";
 import instagram from "../../assets/icons/instagram.png";
 import logo from "../../assets/images/logo.png";
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <div className="footer">
       <div className="inner">
@@ -32,7 +34,9 @@ const Footer = () => {
             </div>
             <div className="right">
               <div className="text-16">Support & Email</div>
-              <div className="text-17">info@greener.com.pk</div>
+              <a href="mailto:info@greener.com.pk">
+                <div className="text-17">info@greener.com.pk</div>
+              </a>
             </div>
           </div>
           <div className="box">
@@ -72,7 +76,9 @@ const Footer = () => {
             </div>
             <div className="right">
               <div className="text-16">Customer Support</div>
-              <div className="text-17">+92 21 32787711, 22, 33, 44</div>
+              <a href="tel:+922132787711">
+                <div className="text-17">+92 21 32787711, 22, 33, 44</div>
+              </a>{" "}
             </div>
           </div>
           <div className="box">
@@ -104,7 +110,12 @@ const Footer = () => {
             </div>
             <div className="right">
               <div className="text-16">Our Location</div>
-              <div className="text-17">Shahra-e-Faisal, Karachi</div>
+              <a
+                target="_blank"
+                href="https://maps.app.goo.gl/jRfuxs51kFgvUdkg7"
+              >
+                <div className="text-17">Shahra-e-Faisal, Karachi</div>
+              </a>
             </div>
           </div>
         </div>
@@ -116,20 +127,36 @@ const Footer = () => {
               embracing sustainable energy solutions.
             </div>
             <div className="socials">
-              <img src={facebook} alt="" />
-              <img src={instagram} alt="" />
+              <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
+                <img src={facebook} alt="" />
+              </a>{" "}
+              <a href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw==">
+                <img src={instagram} alt="" />
+              </a>{" "}
             </div>
           </div>
           <div className="column">
             <div className="text-16">Quick Links</div>
             <div className="list">
               <ul>
-                <li className="text-18">Home</li>
-                <li className="text-18">About Us</li>
-                <li className="text-18">Services</li>
-                <li className="text-18">Energy Load Calculator</li>
-                <li className="text-18">Products</li>
-                <li className="text-18">Contact Us</li>
+                <li className="text-18" onClick={() => navigate("/")}>
+                  Home
+                </li>
+                <li className="text-18" onClick={() => navigate("/about")}>
+                  About Us
+                </li>
+                <li className="text-18" onClick={() => navigate("/services")}>
+                  Services
+                </li>
+                <li className="text-18" onClick={() => navigate("/elc")}>
+                  Energy Load Calculator
+                </li>
+                <li className="text-18" onClick={() => navigate("/products")}>
+                  Products
+                </li>
+                <li className="text-18" onClick={() => navigate("/contact")}>
+                  Contact Us
+                </li>
               </ul>
             </div>
           </div>
@@ -137,9 +164,10 @@ const Footer = () => {
             <div className="text-16">Services</div>
             <div className="list">
               <ul>
-                <li className="text-18">Off-grid solar</li>
-                <li className="text-18">On-grid solar</li>
-                <li className="text-18">Hybrid solar</li>
+                <li className="text-18" onClick={() => navigate("/services")}>Residential Solar</li>
+                <li className="text-18" onClick={() => navigate("/services")}>Commercial Solar</li>
+                <li className="text-18" onClick={() => navigate("/services")}>Solar Installation</li>
+                <li className="text-18" onClick={() => navigate("/services")}>Solar Maintenance</li>
               </ul>
             </div>
           </div>
