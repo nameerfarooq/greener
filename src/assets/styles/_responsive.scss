@@ -63,7 +63,65 @@
   }
 }
 
+@media (max-width: 976px) {
+    .feedback-page .inner{
+        padding: 30px 10px;
+    }
+    .feedback-page .inner .form{
+        width: 90%;
+        padding: 15px;
+    }
+  .feedback-page .inner .form .question .answer-holder {
+    flex-direction: column;
+    .answers {
+      flex-direction: row;
+      justify-content: flex-start;
+      width: auto;
+    }
+  }
+  .feedback-page .inner .form .question .answer-holder input[type="radio"] {
+    margin: 10px !important;
+  }
+}
 @media (max-width: 576px) {
+  .feedback-page .inner .form .double-field {
+    flex-wrap: wrap;
+  }
+  .contact-us .contact-form .inner .form input {
+    margin: 5px;
+  }
+  .contact-us .contact-form .inner .form {
+    width: 80% !important;
+    margin: auto;
+    padding: 15px;
+  }
+  .products-page .inner {
+    padding: 10px !important;
+  }
+  .elc .inner .calculator .headerRow {
+    gap: 10px;
+  }
+  .elc .inner .calculator .rows {
+    margin: 5% auto !important;
+    .col1 {
+      max-width: 30%;
+      margin-right: 10px;
+      overflow: hidden;
+    }
+    gap: 10px !important;
+    select {
+      width: 40px;
+    }
+  }
+  .elc .inner .calculator .rows .right input {
+    width: 30px;
+  }
+  .elc .inner {
+    padding: 3% !important;
+  }
+  .hero-section .inner {
+    padding: 30px !important;
+  }
   html {
     font-size: 9px !important;
   }
@@ -130,8 +188,8 @@
     .image1 {
       width: 100%;
     }
-    .image2{
-        width: 80%;
+    .image2 {
+      width: 80%;
     }
   }
 }
@@ -169,5 +227,8 @@
     .right {
       width: 75%;
     }
+  }
+  .contact-us .contact-options .inner .cards {
+    flex-wrap: wrap;
   }
 }

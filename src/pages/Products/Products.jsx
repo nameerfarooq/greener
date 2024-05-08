@@ -12,7 +12,7 @@ const Products = () => {
       <HeroSection text={"Products"} />
       <div className="products-page">
         <div className="inner">
-          <div className="text-5">
+          <div className="text-5 center">
             We Are Pioneers in The World Of Revewable Energy
           </div>
         </div>
