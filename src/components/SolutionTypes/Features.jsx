@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div className="solution-types">
       <div className="inner">
-        <div className="text-5">Providing Solar Energy Solutions</div>
+        <div className="text-5 center">Providing Solar Energy Solutions</div>
         <div className="boxes-holder">
           <div className="box">
             <div className="white-layer"></div>

@@ -52,6 +52,15 @@
   .about-section .inner .right {
     width: 90% !important;
   }
+  .project-section .inner {
+    flex-wrap: wrap !important;
+    .left {
+      width: 70%;
+    }
+    .right {
+      width: 95%;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -110,10 +119,19 @@
       }
     }
   }
-  .packages .inner{
+  .packages .inner {
     padding: 50px 20px !important;
-    .package-row .package{
-        width: 95%;
+    .package-row .package {
+      width: 95%;
+    }
+  }
+  .project-section .inner .left {
+    width: 100%;
+    .image1 {
+      width: 100%;
+    }
+    .image2{
+        width: 80%;
     }
   }
 }

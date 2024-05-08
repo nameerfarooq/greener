@@ -5,7 +5,7 @@ const WorkProcess = () => {
   return (
     <div className="work-process">
       <div className="inner">
-        <div className="text-5">Our Work Process</div>
+        <div className="text-5 center">Our Work Process</div>
         <div className="box-holder">
           <div className="box">
             <div className="image-box">
