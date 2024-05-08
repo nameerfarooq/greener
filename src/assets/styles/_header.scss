@@ -66,6 +66,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 30px;
+    box-shadow: 0px 10px 15px #6163630a;
     .left {
       img {
         width: 150px;
@@ -89,6 +90,9 @@
         .active {
           color: var(--primaryColor);
         }
+      }
+      .collapsed-menu {
+        display: none !important ;
       }
     }
   }

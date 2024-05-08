@@ -4,6 +4,7 @@ import facebook from "../../assets/icons/facebook.png";
 import instagram from "../../assets/icons/instagram.png";
 import logo from "../../assets/images/logo.png";
 import NavMenu from "./NavMenu";
+import ResponsiveNav from "./ResponsiveNav";
 const Header = () => {
   return (
     <div className="header">
@@ -44,7 +45,12 @@ const Header = () => {
           <img src={logo} alt="" />
         </div>
         <div className="right">
-          <NavMenu />
+          <div className="expanded-menu">
+            <NavMenu />
+          </div>
+          <div className="collapsed-menu">
+            <ResponsiveNav />
+          </div>
         </div>
       </div>
     </div>

@@ -3,20 +3,23 @@
   background-image: url("/src/assets/images/footerbg.png");
   background-position: center;
   background-repeat: no-repeat;
-background-size: cover;
+  background-size: cover;
   .inner {
     padding: 2% 3%;
     .row1 {
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 30px;
-      padding: 3% 0;
+      padding: 30px 0;
       border-bottom: 1px solid rgb(38, 90, 38);
       .box {
-        @include centerAll;
+       display: flex;
+       align-items: center;
         gap: 20px;
         flex: 1;
+        min-width: 270px;
         .left {
           @include centerAll;
           padding: 20px;
@@ -27,9 +30,9 @@ background-size: cover;
             scale: 1.05;
             cursor: pointer;
           }
-          img {
-            width: 30px;
-            height: 30px;
+          svg {
+            width: 40px;
+            height: 40px;
             object-fit: contain;
           }
           .right {
@@ -44,13 +47,12 @@ background-size: cover;
       margin: 4% auto;
       display: flex;
       padding: 0 3%;
-      gap: 3%;
-
-      .colflex2 {
-        flex: 1.5 !important;
-      }
+      gap: 30px;
+flex-wrap: wrap;
+     
       .column {
         flex: 1;
+        min-width: 280px;
         display: flex;
         flex-direction: column;
         gap: 25px;
@@ -82,10 +84,11 @@ background-size: cover;
     }
     .row3 {
       margin: 6% auto 1% auto;
-      height: 50px;
+      padding: 20px;
       background-color: var(--whiteColor);
       @include centerAll;
       border-radius: 25px;
+
     }
   }
 }

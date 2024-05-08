@@ -1,0 +1,155 @@
+@media (max-width: 1076px) {
+  .header {
+    .bottom {
+      .right {
+        .expanded-menu {
+          display: none;
+        }
+        .collapsed-menu {
+          display: block !important;
+        }
+      }
+    }
+  }
+  .responsive-header-nav-menu-items {
+    padding: 50px 30px;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column;
+    gap: 45px;
+    .item {
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: var(--primaryColor);
+      }
+    }
+    .active {
+      color: var(--primaryColor);
+    }
+  }
+  .solution-types {
+    .boxes-holder {
+      flex-wrap: wrap;
+    }
+  }
+  .packages .inner .package-row {
+    flex-wrap: wrap;
+  }
+  .ceo-message .inner {
+    flex-wrap: wrap;
+    .two {
+      width: 40%;
+      img {
+        width: 100%;
+      }
+    }
+    .three {
+      display: none;
+    }
+  }
+  .why-us .inner .right,
+  .about-section .inner .right {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 9px !important;
+  }
+  .about-section .inner .left {
+    width: 100% !important;
+    .image1 {
+      width: 100% !important;
+    }
+  }
+  .why-us .inner .left {
+    width: 100% !important;
+    .image1 {
+      width: 100% !important;
+    }
+  }
+  .counter .inner {
+    padding: 12% 4%;
+  }
+  .ceo-message .inner {
+    // flex-wrap: wrap-reverse !important;
+    .two {
+      order: 1;
+      width: 80%;
+    }
+    .one {
+      order: 2;
+      width: 90%;
+    }
+    .three {
+      order: 3;
+    }
+  }
+  .slider .slide .inner {
+    width: 80% !important;
+    .text-3 {
+      font-size: 42px !important;
+      line-height: 42px;
+    }
+  }
+  .about-section .inner .left .image2,
+  .why-us .inner .left .image2 {
+    width: 70%;
+  }
+  .solution-types .inner {
+    padding: 50px 10px !important ;
+    .boxes-holder {
+      .box {
+        .white-layer,
+        .content {
+          width: 280px !important;
+        }
+        width: 280px !important;
+      }
+    }
+  }
+  .packages .inner{
+    padding: 50px 20px !important;
+    .package-row .package{
+        width: 95%;
+    }
+  }
+}
+@media (max-width: 536px) {
+  .header {
+    .top {
+      display: none !important;
+    }
+    .bottom {
+      margin-top: 30px;
+      padding: 10px;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .ceo-message .inner {
+    .three {
+      display: none;
+    }
+  }
+  .about-section .inner {
+    flex-wrap: wrap;
+    .left {
+      width: 70%;
+    }
+    .right {
+      width: 75%;
+    }
+  }
+  .why-us .inner {
+    flex-wrap: wrap;
+    .left {
+      width: 70%;
+    }
+    .right {
+      width: 75%;
+    }
+  }
+}

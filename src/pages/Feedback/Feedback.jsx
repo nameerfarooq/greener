@@ -64,7 +64,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q1. How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Very Dissatisfied"}
@@ -73,7 +74,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q1. How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Dissatisfied"}
@@ -82,7 +84,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q1. How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Neutral"}
@@ -91,7 +94,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q1. How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Satisfied"}
@@ -100,7 +104,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q1. How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Very Satisfied"}
@@ -117,7 +122,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q2. How would you rate the overall quality of our solar
                     products/services?"
                         value={"Poor"}
@@ -126,7 +132,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q2. How would you rate the overall quality of our solar
                     products/services?"
                         value={"Above Average"}
@@ -135,7 +142,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q2. How would you rate the overall quality of our solar
                     products/services?"
                         value={"Average"}
@@ -144,7 +152,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q2. How would you rate the overall quality of our solar
                     products/services?"
                         value={"Good"}
@@ -153,7 +162,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q2. How would you rate the overall quality of our solar
                     products/services?"
                         value={"Excellent"}
@@ -170,7 +180,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q3: To what extent do you feel our solar products/services
                     meet your needs?"
                         value={"Not at all"}
@@ -179,7 +190,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q3: To what extent do you feel our solar products/services
                     meet your needs?"
                         value={"Partially"}
@@ -188,7 +200,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q3: To what extent do you feel our solar products/services
                     meet your needs?"
                         value={"Moderately"}
@@ -197,7 +210,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q3: To what extent do you feel our solar products/services
                     meet your needs?"
                         value={"Mostly"}
@@ -206,7 +220,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q3: To what extent do you feel our solar products/services
                     meet your needs?"
                         value={"Completely"}
@@ -223,7 +238,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q4. How satisfied are you with the customer service provided
                     by our team?"
                         value={"Very Dissatisfied"}
@@ -232,7 +248,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q4. How satisfied are you with the customer service provided
                     by our team?"
                         value={"Dissatisfied"}
@@ -241,7 +258,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q4. How satisfied are you with the customer service provided
                     by our team?"
                         value={"Neutral"}
@@ -250,7 +268,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q4. How satisfied are you with the customer service provided
                     by our team?"
                         value={"Satisfied"}
@@ -259,7 +278,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q4. How satisfied are you with the customer service provided
                     by our team?"
                         value={"Very Satisfied"}
@@ -276,7 +296,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q5: How would you rate the value for money of our solar
                     products/services?"
                         value={"Poor Value"}
@@ -285,7 +306,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q5: How would you rate the value for money of our solar
                     products/services?"
                         value={"Below Average Value"}
@@ -294,7 +316,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q5: How would you rate the value for money of our solar
                     products/services?"
                         value={"Average Value"}
@@ -303,7 +326,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q5: How would you rate the value for money of our solar
                     products/services?"
                         value={"Above Average Value"}
@@ -312,7 +336,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q5: How would you rate the value for money of our solar
                     products/services?"
                         value={"Excellent Value"}
@@ -329,7 +354,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q6: How well do our solar products/services perform compared
                     to your expectations?"
                         value={"Much Worse"}
@@ -338,7 +364,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q6: How well do our solar products/services perform compared
                     to your expectations?"
                         value={"Worse"}
@@ -347,7 +374,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q6: How well do our solar products/services perform compared
                     to your expectations?"
                         value={"As Expected"}
@@ -356,7 +384,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q6: How well do our solar products/services perform compared
                     to your expectations?"
                         value={"Better"}
@@ -365,7 +394,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q6: How well do our solar products/services perform compared
                     to your expectations?"
                         value={"Much Better"}
@@ -382,7 +412,8 @@ const Feedback = () => {
                   <div className="answer-holder">
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q7: How likely are you to recommend our solar
                     products/services to others?"
                         value={"Unlikely"}
@@ -391,7 +422,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q7: How likely are you to recommend our solar
                     products/services to others?"
                         value={"Maybe"}
@@ -400,7 +432,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q7: How likely are you to recommend our solar
                     products/services to others?"
                         value={"Neutral"}
@@ -409,7 +442,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q7: How likely are you to recommend our solar
                     products/services to others?"
                         value={"Likely"}
@@ -418,7 +452,8 @@ const Feedback = () => {
                     </div>
                     <div className="answers">
                       <input
-                        type="radio" required
+                        type="radio"
+                        required
                         name="Q7: How likely are you to recommend our solar
                     products/services to others?"
                         value={"Very Likely"}
@@ -426,6 +461,14 @@ const Feedback = () => {
                       <div className="text-7">Very Likely</div>
                     </div>
                   </div>
+                </div>
+                <br />
+                <div className="double-field">
+                  <textarea
+                    name="Message"
+                    placeholder="Enter your message"
+                    required
+                  />
                 </div>
                 <br />
                 <div className="center-margin">

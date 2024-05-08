@@ -7,7 +7,7 @@ const Packages = () => {
         <div>
           <div className="text-9 center">Our Packages</div>
 
-          <div className="text-5">Go Smart Go Solar</div>
+          <div className="text-5 center">Go Smart Go Solar</div>
         </div>
         <div className="package-row">
           <div className="package">
