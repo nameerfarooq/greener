@@ -3,6 +3,7 @@ import HeroSection from "../../components/HeroSection";
 import facebook from "../../assets/icons/facebook.png";
 import instagram from "../../assets/icons/instagram.png";
 import ButtonStyle1 from "../../components/Buttons/ButtonStyle1";
+import transition from "../../Transition";
 const ContactUs = () => {
   return (
     <div>
@@ -268,7 +269,7 @@ const ContactUs = () => {
                     required
                   />
                 </div>
-               
+
                 {/* <div className="file-desc">
                   <div className="text-7">Front side of previous bill</div>
                   <div className="text-7">Back side of previous bill</div>
@@ -305,4 +306,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default transition(ContactUs);

@@ -15,7 +15,11 @@ const Header = () => {
       animate={{
         top: 0,
       }}
-      transition={1}
+      transition={{
+        duration: 0.5,
+        delay:1,
+        ease: "backInOut",
+      }}
       className="header"
     >
       <div className="top">

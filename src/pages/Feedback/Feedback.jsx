@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection";
 import ButtonStyle1 from "../../components/Buttons/ButtonStyle1";
-
+import transition from "../../Transition";
 const Feedback = () => {
   return (
     <div>
@@ -485,4 +485,4 @@ const Feedback = () => {
   );
 };
 
-export default Feedback;
+export default transition(Feedback);

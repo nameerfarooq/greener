@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import support from "../../assets/icons/1.png";
 import facebook from "../../assets/icons/facebook.png";
 import instagram from "../../assets/icons/instagram.png";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logowhite.png";
 const Footer = () => {
   const navigate = useNavigate();
   return (

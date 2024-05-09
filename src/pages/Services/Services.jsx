@@ -5,7 +5,7 @@ import h from "../../assets/images/h.jpg";
 import c from "../../assets/images/c.jpg";
 import e from "../../assets/images/e.jpg";
 import leaf2 from "../../assets/icons/leaf2.png";
-
+import transition from "../../Transition";
 import Features from "../../components/SolutionTypes/Features";
 const Services = () => {
   return (
@@ -211,4 +211,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default transition(Services);

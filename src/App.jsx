@@ -15,16 +15,18 @@ import ELC from "./pages/ELC/ELC";
 import ContactUs from "./pages/Contact/ContactUs";
 import Feedback from "./pages/Feedback/Feedback";
 import ScrollToTop from "./ScrollToTop";
-
+import { AnimatePresence } from "framer-motion";
 
 const App = () => {
+  const location = useLocation();
   return (
     <div className="app">
-      <Router>
-        <Header />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
+      {/* <Router> */}
+      <Header />
+      <ScrollToTop />
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route index element={ <Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
@@ -33,14 +35,15 @@ const App = () => {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/feedback" element={<Feedback />} />
         </Routes>
-        <Marquee gradient={true} loop={0} pauseOnHover={true}>
-          <div className="marquee">
-            HEAL THE WORLD / EFFICIENCY & POWER / GENERATE YOUR OWN POWER / REAP
-            THE RETURNS / GREENER PAKISTAN /
-          </div>
-        </Marquee>
-        <Footer />
-      </Router>
+      </AnimatePresence>
+      <Marquee gradient={true} loop={0} pauseOnHover={true}>
+        <div className="marquee">
+          HEAL THE WORLD / EFFICIENCY & POWER / GENERATE YOUR OWN POWER / REAP
+          THE RETURNS / GREENER PAKISTAN /
+        </div>
+      </Marquee>
+      <Footer />
+      {/* </Router> */}
     </div>
   );
 };

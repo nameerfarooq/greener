@@ -5,7 +5,7 @@ import WorkProcess from "../../components/WorkProcess/WorkProcess";
 import Counter from "../../components/Counter/Counter";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import HeroSection from "../../components/HeroSection";
-
+import transition from "../../Transition";
 const About = () => {
   return (
     <div className="about-page">
@@ -19,4 +19,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default transition(About);

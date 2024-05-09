@@ -6,6 +6,7 @@ import battery from "../../assets/images/battery.webp";
 import WorkProcess from "../../components/WorkProcess/WorkProcess";
 import Packages from "../../components/Packages/Packages";
 import Counter from "../../components/Counter/Counter";
+import transition from "../../Transition";
 const Products = () => {
   return (
     <div>
@@ -56,10 +57,16 @@ const Products = () => {
       <WorkProcess />
       <Packages />
       <Counter />
-      <br /><br /><br /><br />
-      <br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
 
-export default Products;
+export default transition(Products);

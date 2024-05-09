@@ -2,6 +2,8 @@ import React from "react";
 import HeroSection from "../../components/HeroSection";
 import { useState } from "react";
 import Rows from "./Rows";
+import transition from "../../Transition";
+
 const ELC = () => {
   const [bulbLoad, setbulbLoad] = useState(0);
   const [fanLoad, setfanLoad] = useState(0);
@@ -225,4 +227,4 @@ const ELC = () => {
   );
 };
 
-export default ELC;
+export default transition(ELC);

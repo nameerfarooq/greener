@@ -7,20 +7,32 @@ import Slider from "../../components/Slider/Slider";
 import SolutionTypes from "../../components/SolutionTypes/SolutionTypes";
 import WhyUs from "../../components/WhyUs/WhyUs";
 import Marquee from "react-fast-marquee";
-
+import { motion } from "framer-motion";
+import Transition from "../../Transition";
 const Home = () => {
   return (
     <div className="Home-page">
       <Slider />
-      <AboutSection />
+      <motion.div
+        initial={{
+          opacity: 0,
+        }}
+        whileInView={{
+          opacity: 1,
+        }}
+        transition={{
+          duration: 2,
+        }}
+      >
+        <AboutSection />
+      </motion.div>
       <SolutionTypes />
       <WhyUs />
       <Counter />
       <Packages />
       <CEO />
-  
     </div>
   );
 };
 
-export default Home;
+export default Transition(Home);
