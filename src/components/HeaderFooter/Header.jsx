@@ -5,9 +5,19 @@ import instagram from "../../assets/icons/instagram.png";
 import logo from "../../assets/images/logo.png";
 import NavMenu from "./NavMenu";
 import ResponsiveNav from "./ResponsiveNav";
+import { motion } from "framer-motion";
 const Header = () => {
   return (
-    <div className="header">
+    <motion.div
+      initial={{
+        top: -200,
+      }}
+      animate={{
+        top: 0,
+      }}
+      transition={1}
+      className="header"
+    >
       <div className="top">
         <div className="left">
           <div className="boxes">
@@ -53,7 +63,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
