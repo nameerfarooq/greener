@@ -1,11 +1,14 @@
 import email from "../../assets/icons/email.png";
 import phone from "../../assets/icons/phone.png";
 import facebook from "../../assets/icons/facebook.png";
-import instagram from "../../assets/icons/instagram.png";
+import twitter from "../../assets/icons/twitter.png";
+import linkedIn from "../../assets/icons/linkedIn.png";
+import youtube from "../../assets/icons/youtube.png";
 import logo from "../../assets/images/logo.png";
 import NavMenu from "./NavMenu";
 import ResponsiveNav from "./ResponsiveNav";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <motion.div
@@ -17,7 +20,7 @@ const Header = () => {
       }}
       transition={{
         duration: 0.5,
-        delay:1,
+        delay: 1,
         ease: "backInOut",
       }}
       className="header"
@@ -42,21 +45,35 @@ const Header = () => {
           </div>
         </div>
         <div className="right">
-          <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
+          <abbr title="Facebook">
+            <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
+              <div className="icon">
+                <img src={facebook} alt="" />
+              </div>
+            </a>
+          </abbr>
+          <abbr title="X(Twitter)">
             <div className="icon">
-              <img src={facebook} alt="" />
+              <img src={twitter} alt="" />
             </div>
-          </a>
-          <a href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw==">
+          </abbr>
+          <abbr title="LinkedIn">
             <div className="icon">
-              <img src={instagram} alt="" />
+              <img src={linkedIn} alt="" />
             </div>
-          </a>
+          </abbr>
+          <abbr title="Youtube">
+            <div className="icon">
+              <img src={youtube} alt="" />
+            </div>
+          </abbr>
         </div>
       </div>
       <div className="bottom">
         <div className="left">
-          <img src={logo} alt="" />
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <div className="right">
           <div className="expanded-menu">

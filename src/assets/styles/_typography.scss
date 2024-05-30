@@ -142,3 +142,13 @@
   font-weight: 400;
   color: var(--secondaryColor);
 }
+.text-23 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  color: var(--blackColor);
+  &:hover {
+    color: var(--primaryColor);
+  }
+}

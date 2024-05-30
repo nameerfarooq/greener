@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0% 6%;
+    padding: 0% 4%;
     margin: 10px 20px;
     .left {
       display: flex;
@@ -89,6 +89,31 @@
         }
         .active {
           color: var(--primaryColor);
+        }
+        .drop-down-holder {
+          position: relative;
+          .drop-down {
+            position: absolute;
+            left: -80px;
+            top: 40px;
+            box-shadow: 0px 1px 12px #00000040;
+            width: 400px;
+            border-radius: 25px;
+            padding: 25px;
+            background-color: var(--whiteColor);
+            display: flex;
+            gap: 20px;
+            .left,
+            .right {
+              flex: 1;
+            }
+            .left {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              border-right: 2px solid grey;
+            }
+          }
         }
       }
       .collapsed-menu {
