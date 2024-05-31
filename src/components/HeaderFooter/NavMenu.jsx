@@ -2,29 +2,34 @@ import { NavLink } from "react-router-dom";
 import ButtonStyle1 from "../Buttons/ButtonStyle1";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
-const NavMenu = () => {
+const NavMenu = ({ showDropDown, enterShowDropDown, exitShowDropDown }) => {
   const { pathname } = useLocation();
-  const [showDropDown, setShowDropDown] = useState(false);
 
-  console.log(pathname);
   return (
     <div className="menu-items">
       <NavLink to="/home">
-        <div className="item text-2">Home</div>
+        <div
+          className="item text-2"
+          onMouseEnter={() => () => exitShowDropDown()()}
+        >
+          Home
+        </div>
       </NavLink>
-      <NavLink to="/about">
+      <NavLink to="/about" onMouseEnter={() => exitShowDropDown()}>
         <div className="item text-2">About Us</div>
       </NavLink>
       <NavLink to="/services">
         <div
-          onMouseEnter={() => setShowDropDown(true)}
+          onMouseEnter={() => enterShowDropDown()}
+          // onMouseLeave={()=>exitShowDropDown()}
           className="item text-2 drop-down-holder"
         >
           Services
           {showDropDown && (
             <div
               className="drop-down "
-              onMouseLeave={() => setShowDropDown(false)}
+              onMouseEnter={() => enterShowDropDown()}
+              onMouseLeave={() => exitShowDropDown()}
             >
               <div className="left ">
                 <NavLink to="" className="text-23">
@@ -49,13 +54,13 @@ const NavMenu = () => {
           )}
         </div>
       </NavLink>
-      <NavLink to="/elc">
+      <NavLink to="/elc" onMouseEnter={() => exitShowDropDown()}>
         <div className="item text-2">Energy Load Calculator</div>
       </NavLink>
-      <NavLink to="/products">
+      <NavLink to="/products" onMouseEnter={() => exitShowDropDown()}>
         <div className="item text-2">Products</div>
       </NavLink>
-      <NavLink to="/contact">
+      <NavLink to="/contact" onMouseEnter={() => exitShowDropDown()}>
         <ButtonStyle1 text="Contact Us" />
       </NavLink>
     </div>

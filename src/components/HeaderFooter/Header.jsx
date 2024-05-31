@@ -9,7 +9,16 @@ import NavMenu from "./NavMenu";
 import ResponsiveNav from "./ResponsiveNav";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 const Header = () => {
+  const [showDropDown, setshowDropDown] = useState(false);
+  const enterShowDropDown = () => {
+    setshowDropDown(true);
+  };
+  const exitShowDropDown = () => {
+    setshowDropDown(false);
+  };
   return (
     <motion.div
       initial={{
@@ -69,7 +78,7 @@ const Header = () => {
           </abbr>
         </div>
       </div>
-      <div className="bottom">
+      <div className="bottom" onMouseLeave={exitShowDropDown}>
         <div className="left">
           <Link to="/">
             <img src={logo} alt="" />
@@ -77,7 +86,11 @@ const Header = () => {
         </div>
         <div className="right">
           <div className="expanded-menu">
-            <NavMenu />
+            <NavMenu
+              showDropDown={showDropDown}
+              enterShowDropDown={enterShowDropDown}
+              exitShowDropDown={exitShowDropDown}
+            />
           </div>
           <div className="collapsed-menu">
             <ResponsiveNav />

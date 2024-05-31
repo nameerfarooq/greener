@@ -26,7 +26,7 @@ const App = () => {
       <ScrollToTop />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route index element={ <Home />} />
+          <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
@@ -38,8 +38,9 @@ const App = () => {
       </AnimatePresence>
       <Marquee gradient={true} loop={0} pauseOnHover={true}>
         <div className="marquee">
-          HEAL THE WORLD / EFFICIENCY & POWER / GENERATE YOUR OWN POWER / REAP
-          THE RETURNS / GREENER PAKISTAN /
+          {" "}
+          HEAL THE WORLD || EFFICIENCY & POWER || GENERATE YOUR OWN POWER ||
+          REAP THE RETURNS || GREENER PAKISTAN ||{" "}
         </div>
       </Marquee>
       <Footer />
