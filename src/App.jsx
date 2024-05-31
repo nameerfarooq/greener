@@ -16,6 +16,7 @@ import ContactUs from "./pages/Contact/ContactUs";
 import Feedback from "./pages/Feedback/Feedback";
 import ScrollToTop from "./ScrollToTop";
 import { AnimatePresence } from "framer-motion";
+import Cabling from "./pages/Cabling/Cabling";
 
 const App = () => {
   const location = useLocation();
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/cabling" element={<Cabling />} />
           <Route path="/products" element={<Products />} />
           <Route path="/elc" element={<ELC />} />
           <Route path="/contact" element={<ContactUs />} />

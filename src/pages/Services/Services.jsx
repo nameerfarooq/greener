@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../../components/HeroSection";
 import a from "../../assets/images/a.jpg";
 import h from "../../assets/images/h.jpg";
@@ -7,7 +7,25 @@ import e from "../../assets/images/e.jpg";
 import leaf2 from "../../assets/icons/leaf2.png";
 import transition from "../../Transition";
 import Features from "../../components/SolutionTypes/Features";
+import { useLocation } from "react-router-dom";
 const Services = () => {
+  const { pathname, hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      setTimeout(() => {
+        const element = document.getElementById(hash.substring(1));
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    } else {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [pathname, hash]);
   return (
     <div className="services-page">
       <HeroSection text={"Services"} />
@@ -18,7 +36,7 @@ const Services = () => {
         </div>
         <div className="services-holder">
           <div className="inner">
-            <div className="service-card">
+            <div className="service-card" id="residential-solar">
               <div className="image-holder">
                 <img src={a} alt="" />
               </div>
@@ -29,7 +47,7 @@ const Services = () => {
                 save money and reduce their environmental impact.
               </div>
             </div>
-            <div className="service-card">
+            <div className="service-card" id="commercial-solar">
               <div className="image-holder">
                 <img src={c} alt="" />
               </div>
@@ -40,18 +58,18 @@ const Services = () => {
                 responsibility.
               </div>
             </div>
-            <div className="service-card">
+            <div className="service-card" id="industrial-solar">
               <div className="image-holder">
                 <img src={e} alt="" />
               </div>
-              <div className="text-6">Solar Installation</div>
+              <div className="text-6">Industrial Solar</div>
               <div className="text-7">
                 Professional installation services by our team of certified
                 technicians, ensuring optimal performance and reliability of
                 your solar energy system.
               </div>
             </div>
-            <div className="service-card">
+            <div className="service-card" id="solar-maintainance">
               <div className="image-holder">
                 <img src={h} alt="" />
               </div>

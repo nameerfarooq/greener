@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ButtonStyle1 from "../Buttons/ButtonStyle1";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
@@ -32,23 +32,23 @@ const NavMenu = ({ showDropDown, enterShowDropDown, exitShowDropDown }) => {
               onMouseLeave={() => exitShowDropDown()}
             >
               <div className="left ">
-                <NavLink to="" className="text-23">
+                <Link to="/services/#residential-solar" className="text-23">
                   Residential Solar System
-                </NavLink>
-                <NavLink to="" className="text-23">
+                </Link>
+                <Link to="/services/#commercial-solar" className="text-23">
                   Commercial Solar System
-                </NavLink>
-                <NavLink to="" className="text-23">
+                </Link>
+                <Link to="/services/#industrial-solar" className="text-23">
                   Industrial Solar System
-                </NavLink>
-                <NavLink to="" className="text-23">
+                </Link>
+                <Link to="/services/#solar-maintainance" className="text-23">
                   Solar Maintainance & Support
-                </NavLink>
+                </Link>
               </div>
               <div className="right">
-                <NavLink to="" className="text-23">
+                <Link to="/cabling" className="text-23">
                   Underground Cabling Maintainance
-                </NavLink>
+                </Link>
               </div>
             </div>
           )}
