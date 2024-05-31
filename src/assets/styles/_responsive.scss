@@ -58,6 +58,7 @@
     }
   }
   .why-us .inner .right,
+  .power .inner .right,
   .about-section .inner .right {
     width: 90% !important;
   }
@@ -140,7 +141,8 @@
       width: 100% !important;
     }
   }
-  .why-us .inner .left {
+  .why-us .inner .left,
+  .power .inner .left {
     width: 100% !important;
     .image1 {
       width: 100% !important;
@@ -171,7 +173,8 @@
     }
   }
   .about-section .inner .left .image2,
-  .why-us .inner .left .image2 {
+  .why-us .inner .left .image2,
+  .power .inner .left .image2 {
     width: 70%;
   }
   .solution-types .inner {
@@ -228,7 +231,8 @@
       width: 75%;
     }
   }
-  .why-us .inner {
+  .why-us .inner,
+  .power .inner {
     flex-wrap: wrap;
     .left {
       width: 70%;
