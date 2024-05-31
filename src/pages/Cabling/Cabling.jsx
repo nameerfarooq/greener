@@ -44,8 +44,8 @@ const Cabling = () => {
             <div className="right">
               <div className="text-9">Greener's</div>
               <div className="text-5">
-                Underground
-                <span className="green"> Cabling</span>
+                Underground Power Cables
+                <span className="green"> – Fault Testing & Rectification</span>
               </div>
               <div className="text-7">Our services encompass:</div>
               <div className="points">
