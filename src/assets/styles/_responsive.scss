@@ -12,7 +12,7 @@
     }
   }
   .responsive-header-nav-menu-items {
-    padding: 50px 30px;
+    padding: 30px;
     display: flex !important;
     justify-content: center !important;
     flex-direction: column;
@@ -22,6 +22,15 @@
       cursor: pointer;
       &:hover {
         color: var(--primaryColor);
+      }
+    }
+    .drop-down-collapsed {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+      gap: 10px;
+      a {
+        display: list-item;
       }
     }
     .active {
@@ -64,13 +73,13 @@
 }
 
 @media (max-width: 976px) {
-    .feedback-page .inner{
-        padding: 30px 10px;
-    }
-    .feedback-page .inner .form{
-        width: 90%;
-        padding: 15px;
-    }
+  .feedback-page .inner {
+    padding: 30px 10px;
+  }
+  .feedback-page .inner .form {
+    width: 90%;
+    padding: 15px;
+  }
   .feedback-page .inner .form .question .answer-holder {
     flex-direction: column;
     .answers {

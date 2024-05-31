@@ -10,7 +10,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import MailIcon from "@mui/icons-material/Mail";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ButtonStyle1 from "../Buttons/ButtonStyle1";
 import menu from "../../assets/icons/menu.png";
 const ResponsiveNav = () => {
@@ -41,6 +41,23 @@ const ResponsiveNav = () => {
             <NavLink to="/services">
               <div className="item text-2">Services</div>
             </NavLink>
+            <div className="drop-down-collapsed">
+              <Link to="/services/#residential-solar" className="text-23">
+                Residential Solar System
+              </Link>
+              <Link to="/services/#commercial-solar" className="text-23">
+                Commercial Solar System
+              </Link>
+              <Link to="/services/#industrial-solar" className="text-23">
+                Industrial Solar System
+              </Link>
+              <Link to="/services/#solar-maintainance" className="text-23">
+                Solar Maintainance & Support
+              </Link>
+              <Link to="/cabling" className="text-23">
+                Underground Cabling Maintainance
+              </Link>
+            </div>
             <NavLink to="/elc">
               <div className="item text-2">Energy Load Calculator</div>
             </NavLink>
