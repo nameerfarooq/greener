@@ -35,7 +35,7 @@ const CEO = () => {
               enableScrollSpy={true}
               scrollSpyDelay={500}
             />
-            + <span className="green"> Cleints</span>
+            + <span className="green"> Clients</span>
           </div>
           <div className="text-15">
             <CountUp

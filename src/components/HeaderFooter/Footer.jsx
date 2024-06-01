@@ -164,10 +164,18 @@ const Footer = () => {
             <div className="text-16">Services</div>
             <div className="list">
               <ul>
-                <li className="text-18" onClick={() => navigate("/services")}>Residential Solar</li>
-                <li className="text-18" onClick={() => navigate("/services")}>Commercial Solar</li>
-                <li className="text-18" onClick={() => navigate("/services")}>Solar Installation</li>
-                <li className="text-18" onClick={() => navigate("/services")}>Solar Maintenance</li>
+                <li className="text-18" onClick={() => navigate("/services")}>
+                  Residential Solar
+                </li>
+                <li className="text-18" onClick={() => navigate("/services")}>
+                  Commercial Solar
+                </li>
+                <li className="text-18" onClick={() => navigate("/services")}>
+                  Underground cabling maintenance
+                </li>
+                <li className="text-18" onClick={() => navigate("/services")}>
+                  Solar Maintenance
+                </li>
               </ul>
             </div>
           </div>
