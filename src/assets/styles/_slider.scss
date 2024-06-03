@@ -14,6 +14,9 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
+        .text-3 {
+          text-shadow: 5px 5px 15px black;
+        }
         .button-holder {
           margin: 20px 0 0 0;
           display: flex;
@@ -27,6 +30,9 @@
     }
     .slide2 {
       background-image: url("/src/assets/images/two.png");
+    }
+    .slide3 {
+      background-image: url("/src/assets/images/underground2.jpg");
     }
   }
 }

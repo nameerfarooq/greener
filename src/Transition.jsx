@@ -20,7 +20,7 @@ const Transition = (OgComponent) => {
           ease: [0.22, 1, 0.36, 1],
         }}
       >
-        <img src={logo} alt="" />
+        <img className="transition-logo" src={logo} alt="" />
       </motion.div>
 
       <motion.div
@@ -39,7 +39,7 @@ const Transition = (OgComponent) => {
           ease: [0.22, 1, 0.36, 1],
         }}
       >
-        <img src={logo} alt="" />
+        <img className="transition-logo" src={logo} alt="" />
       </motion.div>
     </>
   );

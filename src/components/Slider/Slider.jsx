@@ -65,6 +65,42 @@ export default function Slider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="slide slide3">
+            <div className="inner">
+              <div className="text-3">
+                <MovingText
+                  type="fadeInFromLeft"
+                  duration="1000ms"
+                  delay="index * 100ms"
+                  direction="normal"
+                  timing="ease-in-out"
+                  iteration="1"
+                  fillMode="none"
+                >
+                  Greener Power Division
+                </MovingText>
+              </div>
+              <div className="text-4">
+                Underground Power Cables – Fault Testing & Rectification
+              </div>
+              <div className="button-holder">
+                <ButtonStyle1
+                  text="Our Services"
+                  action={() => {
+                    navigate("/cabling");
+                  }}
+                />
+                <ButtonStyle2
+                  text="Contact Now"
+                  action={() => {
+                    navigate("/contact");
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className="slide slide2">
             <div className="inner">
               <MovingText

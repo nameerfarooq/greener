@@ -1049,7 +1049,6 @@ a {
       }
     }
   }
-  
 }
 .product-items-holder {
   margin: 40px 20px;
@@ -1076,18 +1075,26 @@ a {
     }
   }
 }
-.last{
-  .inner{
+.last {
+  .inner {
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     justify-content: center;
-    iframe{
+    iframe {
       width: 100%;
       max-width: 615px;
       height: 400px;
     }
+  }
+}
+@media (max-width: 476px) {
+  .transition-logo {
+    width: 260px !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin: auto !important;
   }
 }
