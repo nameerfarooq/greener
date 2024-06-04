@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import support from "../../assets/icons/1.png";
-import facebook from "../../assets/icons/facebook.png";
-import instagram from "../../assets/icons/instagram.png";
+import facebook from "../../assets/icons/facebooknew.png";
+import twitter from "../../assets/icons/twitternew.png";
+import linkedIn from "../../assets/icons/linkedinnew.png";
+import youtube from "../../assets/icons/youtubenew.png";
 import logo from "../../assets/images/logowhite.png";
 const Footer = () => {
   const navigate = useNavigate();
@@ -127,12 +129,28 @@ const Footer = () => {
               embracing sustainable energy solutions.
             </div>
             <div className="socials">
-              <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
-                <img src={facebook} alt="" />
-              </a>{" "}
-              <a href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw==">
-                <img src={instagram} alt="" />
-              </a>{" "}
+              <abbr title="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
+                  <div className="icon">
+                    <img src={facebook} alt="" />
+                  </div>
+                </a>
+              </abbr>
+              <abbr title="X(Twitter)">
+                <div className="icon">
+                  <img src={twitter} alt="" />
+                </div>
+              </abbr>
+              <abbr title="LinkedIn">
+                <div className="icon">
+                  <img src={linkedIn} alt="" />
+                </div>
+              </abbr>
+              <abbr title="Youtube">
+                <div className="icon">
+                  <img src={youtube} alt="" />
+                </div>
+              </abbr>
             </div>
           </div>
           <div className="column">
