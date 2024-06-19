@@ -182,17 +182,20 @@ const Footer = () => {
             <div className="text-16">Services</div>
             <div className="list">
               <ul>
-                <li className="text-18" onClick={() => navigate("/services")}>
-                  Residential Solar
+                <li className="text-18" onClick={() => navigate("/services/#residential-solar")}>
+                Residential Solar System
                 </li>
-                <li className="text-18" onClick={() => navigate("/services")}>
-                  Commercial Solar
+                <li className="text-18" onClick={() => navigate("/services/#commercial-solar")}>
+                Commercial Solar System
                 </li>
-                <li className="text-18" onClick={() => navigate("/services")}>
-                  Underground cabling maintenance
+                <li className="text-18" onClick={() => navigate("/services/#industrial-solar")}>
+                Industrial Solar System
                 </li>
-                <li className="text-18" onClick={() => navigate("/services")}>
-                  Solar Maintenance
+                <li className="text-18" onClick={() => navigate("/services/#solar-maintainance")}>
+                Solar Maintainance & Support
+                </li>
+                <li className="text-18" onClick={() => navigate("/cabling")}>
+                Underground Cabling Maintainance
                 </li>
               </ul>
             </div>
