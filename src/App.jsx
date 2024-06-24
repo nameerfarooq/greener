@@ -17,6 +17,7 @@ import Feedback from "./pages/Feedback/Feedback";
 import ScrollToTop from "./ScrollToTop";
 import { AnimatePresence } from "framer-motion";
 import Cabling from "./pages/Cabling/Cabling";
+import LVCables from "./pages/Products/LVCables";
 
 const App = () => {
   const location = useLocation();
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/elc" element={<ELC />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/lvht-cables" element={<LVCables />} />
         </Routes>
       </AnimatePresence>
       <Marquee gradient={true} loop={0} pauseOnHover={true}>

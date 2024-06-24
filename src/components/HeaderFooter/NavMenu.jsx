@@ -1,27 +1,42 @@
+/* eslint-disable react/prop-types */
 import { Link, NavLink } from "react-router-dom";
 import ButtonStyle1 from "../Buttons/ButtonStyle1";
-import { useLocation } from "react-router-dom";
-import { useState } from "react";
-const NavMenu = ({ showDropDown, enterShowDropDown, exitShowDropDown }) => {
-  const { pathname } = useLocation();
-
+const NavMenu = ({
+  showDropDown,
+  enterShowDropDown,
+  exitShowDropDown,
+  showDropDown2,
+  enterShowDropDown2,
+  exitShowDropDown2,
+}) => {
   return (
     <div className="menu-items">
       <NavLink to="/home">
         <div
           className="item text-2"
-          onMouseEnter={() => () => exitShowDropDown()()}
+          onMouseEnter={() => {
+            exitShowDropDown();
+            exitShowDropDown2();
+          }}
         >
           Home
         </div>
       </NavLink>
-      <NavLink to="/about" onMouseEnter={() => exitShowDropDown()}>
+      <NavLink
+        to="/about"
+        onMouseEnter={() => {
+          exitShowDropDown();
+          exitShowDropDown2();
+        }}
+      >
         <div className="item text-2">About Us</div>
       </NavLink>
       <NavLink to="/services">
         <div
-          onMouseEnter={() => enterShowDropDown()}
-          // onMouseLeave={()=>exitShowDropDown()}
+          onMouseEnter={() => {
+            enterShowDropDown();
+            exitShowDropDown2();
+          }}
           className="item text-2 drop-down-holder"
         >
           Services
@@ -54,13 +69,46 @@ const NavMenu = ({ showDropDown, enterShowDropDown, exitShowDropDown }) => {
           )}
         </div>
       </NavLink>
-      <NavLink to="/elc" onMouseEnter={() => exitShowDropDown()}>
+      <NavLink
+        to="/elc"
+        onMouseEnter={() => {
+          exitShowDropDown();
+          exitShowDropDown2();
+        }}
+      >
         <div className="item text-2">Energy Load Calculator</div>
       </NavLink>
-      <NavLink to="/products" onMouseEnter={() => exitShowDropDown()}>
-        <div className="item text-2">Products</div>
+      <NavLink
+        to="/products"
+        onMouseEnter={() => {
+          exitShowDropDown();
+          enterShowDropDown2();
+        }}
+      >
+        <div className="item text-2 drop-down-holder">
+          Products
+          {showDropDown2 && (
+            <div
+              className="drop-down2 "
+              onMouseEnter={() => enterShowDropDown2()}
+              onMouseLeave={() => exitShowDropDown2()}
+            >
+              <div className="left ">
+                <Link to="/lvht-cables" className="text-23">
+                  LV/HT Cables
+                </Link>
+              </div>
+            </div>
+          )}
+        </div>
       </NavLink>
-      <NavLink to="/contact" onMouseEnter={() => exitShowDropDown()}>
+      <NavLink
+        to="/contact"
+        onMouseEnter={() => {
+          exitShowDropDown();
+          exitShowDropDown2();
+        }}
+      >
         <ButtonStyle1 text="Contact Us" />
       </NavLink>
     </div>

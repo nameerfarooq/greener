@@ -467,6 +467,18 @@ a {
     @include centerAll;
   }
 }
+.hero-section2 {
+  @include centerAll;
+  height: 60vh;
+  background-image: url("../images/hero2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .inner {
+    padding-top: 6%;
+    @include centerAll;
+  }
+}
 
 .work-process {
   .inner {
@@ -1096,5 +1108,61 @@ a {
     height: auto !important;
     object-fit: contain !important;
     margin: auto !important;
+  }
+}
+.lv-cables {
+  .inner {
+    padding: 60px 40px;
+    max-width: 1600px;
+    margin: auto;
+    .item {
+      margin: 60px auto;
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      .left,
+      .right {
+        flex: 1;
+      }
+      .left {
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+      }
+    }
+    .item2 {
+      margin: 60px auto;
+
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 40px;
+      flex-wrap: wrap;
+      .left,
+      .right {
+        flex: 1;
+      }
+      .left {
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+
+      }
+    }
   }
 }

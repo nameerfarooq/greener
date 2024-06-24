@@ -13,11 +13,18 @@ import { useState } from "react";
 
 const Header = () => {
   const [showDropDown, setshowDropDown] = useState(false);
+  const [showDropDown2, setshowDropDown2] = useState(false);
   const enterShowDropDown = () => {
     setshowDropDown(true);
   };
   const exitShowDropDown = () => {
     setshowDropDown(false);
+  };
+  const enterShowDropDown2 = () => {
+    setshowDropDown2(true);
+  };
+  const exitShowDropDown2 = () => {
+    setshowDropDown2(false);
   };
   return (
     <motion.div
@@ -78,7 +85,13 @@ const Header = () => {
           </abbr>
         </div>
       </div>
-      <div className="bottom" onMouseLeave={exitShowDropDown}>
+      <div
+        className="bottom"
+        onMouseLeave={() => {
+          exitShowDropDown();
+          exitShowDropDown2();
+        }}
+      >
         <div className="left">
           <Link to="/">
             <img src={logo} alt="" />
@@ -90,6 +103,9 @@ const Header = () => {
               showDropDown={showDropDown}
               enterShowDropDown={enterShowDropDown}
               exitShowDropDown={exitShowDropDown}
+              showDropDown2={showDropDown2}
+              enterShowDropDown2={enterShowDropDown2}
+              exitShowDropDown2={exitShowDropDown2}
             />
           </div>
           <div className="collapsed-menu">

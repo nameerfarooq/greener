@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 
-const HeroSection = ({ text }) => {
+const Hero2 = ({ text }) => {
   return (
-    <div className="hero-section">
+    <div className="hero-section2">
       <div className="inner">
         <div className="text-20 center">{text}</div>
       </div>
@@ -10,4 +10,4 @@ const HeroSection = ({ text }) => {
   );
 };
 
-export default HeroSection;
+export default Hero2;
