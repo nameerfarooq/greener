@@ -131,7 +131,11 @@ const LVCables = () => {
           <br />
           <br />
           <br />
-          
+          <div className="product-table">
+            <div className="header">
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
