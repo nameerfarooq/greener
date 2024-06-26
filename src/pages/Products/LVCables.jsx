@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import Hero2 from "../../components/Hero2";
 import wire1 from "../../assets/images/wire1.jpg";
 import wire2 from "../../assets/images/wire2.jpg";
@@ -132,9 +133,449 @@ const LVCables = () => {
           <br />
           <br />
           <div className="product-table">
-            <div className="header">
-              
+            <div className=" tableheader">
+              <div className="col1 text-7">Nominal Area of Conductor</div>
+              <div className="col2 text-7">No. of Cores</div>
+              <div className="col3 text-7">
+                Type of Cables 450/750 -600/1000 & 1900/3300 Volts
+              </div>
             </div>
+            <div className="row">
+              <div className="col1 text-7">
+                1 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, 5 upto 48</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                1.5 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, 5 upto 48</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                2.5 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, 5 upto 48</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                4 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, 5 upto 48</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                6 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                10 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                16 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                25 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                35 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                50 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                70 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                95 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                120 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                150 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                185 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                240 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                300 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, 4, & 5</div>
+              <div className="col3 text-7">
+                PVC & XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="inner">
+          <div className="text-5 center">FLEXIBLE CABLES</div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className="product-table">
+            <div className=" tableheader">
+              <div className="col1 text-7">Nominal Area of Conductor</div>
+              <div className="col2 text-7">No. of Cores</div>
+              <div className="col3 text-7">
+                Type of Cables 300/500 – 450/750 & 600/1000 Volts
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                1 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3 & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                1.5 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                2.5 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                4 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                6 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                10 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                16 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                25 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                35 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                50 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                70 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                95 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                120 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                150 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                185 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                240 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                300 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">1, 2, 3, & 4 Core</div>
+              <div className="col3 text-7">PVC Insulate & PVC Sheathed</div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="inner">
+          <div className="text-5 center">HIGH TENSION POWER CABLES</div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className="product-table">
+            <div className=" tableheader">
+              <div className="col1 text-7">Nominal Area of Conductor</div>
+              <div className="col2 text-7">No. of Cores</div>
+              <div className="col3 text-7">
+                Type of Cables 6.35/11 kV – 8.7/15 kV & 19/33 kV
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col1 text-7">
+                16 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                25 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                35 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                50 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                70 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                95 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                120 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                150 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                185 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                240 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+            <div className="row">
+              <div className="col1 text-7">
+                300 mm <sup>2</sup>
+              </div>
+              <div className="col2 text-7">Single & Three Core</div>
+              <div className="col3 text-7">
+                XLPE Insulated — Armoured & Unarmoured
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="inner">
+          <div className="text-5 center">COPPER & ALUMINIUM CONDUCTOR</div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className="text-7">
+            Complete specifications for Hard Drawn Bare Copper Conductors for
+            overhead use are available. You can find comprehensive listings for
+            ACSR and AAC Overhead Conductors as well. Visit dumps.cc for
+            detailed information.
+          </div>
+          <div className="text-7 red-text">
+            Note: We have the capability to manufacture specialized conductors
+            tailored to the specific needs of our clients.
           </div>
         </div>
       </div>

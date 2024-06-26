@@ -46,7 +46,7 @@
   font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  color: var(--greyColor);
+  color: var(--darkGreyColor);
   line-height: 2.8rem;
 }
 .text-8 {
@@ -151,4 +151,7 @@
   &:hover {
     color: var(--primaryColor);
   }
+}
+.red-text {
+  color: red;
 }
