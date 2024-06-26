@@ -83,6 +83,68 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <div className="power">
+        <div className="inner">
+          <div className="left">
+            <div className="image1"></div>
+            <div className="image2"></div>
+            <div className="image3"></div>
+          </div>
+          <div className="right">
+            <div className="text-5">
+              Empower your space with our electrifying services
+              <span className="green">
+                {" "}
+                - igniting efficiency and brilliance!
+              </span>
+            </div>
+            <div className="text-7">Our services encompass:</div>
+            <div className="points">
+              <div className="point">
+                <div className="icon">
+                  <img src={leaf2} alt="" />
+                </div>
+                <div className="text-8">
+                  Streamlined documentation for new connections.
+                </div>
+              </div>
+              <div className="point">
+                <div className="icon">
+                  <img src={leaf2} alt="" />
+                </div>
+                <div className="text-8">
+                  Installation of LT / HT cables with precision.
+                </div>
+              </div>
+              <div className="point">
+                <div className="icon">
+                  <img src={leaf2} alt="" />
+                </div>
+                <div className="text-8">
+                  Thorough testing of LT / HT cables at consumer sites.
+                </div>
+              </div>
+              <div className="point">
+                <div className="icon">
+                  <img src={leaf2} alt="" />
+                </div>
+                <div className="text-8">
+                  Comprehensive maintenance of substations, encompassing all
+                  switch types.
+                </div>
+              </div>
+              <div className="point">
+                <div className="icon">
+                  <img src={leaf2} alt="" />
+                </div>
+                <div className="text-8">
+                  Swapping out PTs and CTs for seamless operation.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Features />
       <div className="our-projects">
         <div className="inner">
