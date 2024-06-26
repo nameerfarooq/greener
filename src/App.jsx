@@ -14,10 +14,11 @@ import Products from "./pages/Products/Products";
 import ELC from "./pages/ELC/ELC";
 import ContactUs from "./pages/Contact/ContactUs";
 import Feedback from "./pages/Feedback/Feedback";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop1 from "./ScrollToTop";
 import { AnimatePresence } from "framer-motion";
 import Cabling from "./pages/Cabling/Cabling";
 import LVCables from "./pages/Products/LVCables";
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
   const location = useLocation();
@@ -25,7 +26,7 @@ const App = () => {
     <div className="app">
       {/* <Router> */}
       <Header />
-      <ScrollToTop />
+      <ScrollToTop1 />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route index element={<Home />} />
@@ -49,6 +50,7 @@ const App = () => {
       </Marquee>
       <Footer />
       {/* </Router> */}
+      <ScrollToTop smooth />
     </div>
   );
 };
