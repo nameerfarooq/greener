@@ -436,6 +436,7 @@ a {
 
       img {
         border-radius: 25px;
+        width: 100%;
       }
     }
     .three {
@@ -806,9 +807,9 @@ a {
       height: 100%;
 
       .form {
-        width: 500px;
+        width: 900px;
         margin: 30px;
-        margin-left: auto;
+        margin: auto;
         padding: 30px;
         background-color: var(--whiteColor);
         border-radius: 20px;
@@ -822,6 +823,29 @@ a {
             flex: 1;
             padding: 5px 15px;
           }
+        }
+        .options-fields {
+          display: flex;
+          width: 100%;
+          .w-100 {
+            width: 100%;
+            margin: 10px;
+          }
+        }
+        .options-fields select {
+          border: none;
+          outline: none;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          height: 60px;
+          padding: 10px 10px;
+          font-size: 1.6rem;
+          color: var(--secondaryColor);
+          font-family: "Rubik", sans-serif;
+          background-color: var(--lightBackgroundColor);
+          border-radius: 10px;
+          margin-right: 10px;
         }
         input {
           border: none;
@@ -1214,5 +1238,20 @@ a {
         }
       }
     }
+  }
+}
+.videoGreener {
+  width: 800px;
+  height: auto;
+  margin: 10px;
+}
+@media (max-width: 800px) {
+  .videoGreener {
+    width: 450px;
+  }
+}
+@media (max-width: 450px) {
+  .videoGreener {
+    width: 260px;
   }
 }

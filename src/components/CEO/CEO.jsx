@@ -1,4 +1,4 @@
-import ceo from "../../assets/images/eight.jpg";
+import ceo from "../../assets/images/ceo.jpg";
 import CountUp from "react-countup";
 const CEO = () => {
   return (

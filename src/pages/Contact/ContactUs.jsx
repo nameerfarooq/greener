@@ -1,7 +1,11 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection";
-import facebook from "../../assets/icons/facebook.png";
+import facebook from "../../assets/icons/facebooknew.png";
+import twitter from "../../assets/icons/twitternew.png";
 import instagram from "../../assets/icons/instagram.png";
+import linkedIn from "../../assets/icons/linkedinnew.png";
+import youtube from "../../assets/icons/youtubenew.png";
+
 import ButtonStyle1 from "../../components/Buttons/ButtonStyle1";
 import transition from "../../Transition";
 const ContactUs = () => {
@@ -156,10 +160,8 @@ const ContactUs = () => {
                     <div className="bottom">
                       <div className="text-6">Phone:</div>
                       <div>
-                        <div className="text-7">
-                          Tel No.: +922132787711,22,33,44
-                        </div>
-                        <div className="text-7">Fax No.: +92 21 32791115</div>
+                        <div className="text-7">Tel No : +92 345 8230986</div>
+                        <div className="text-7">Fax No : +92 21 32791115</div>
                       </div>
                     </div>
                   </div>
@@ -186,16 +188,51 @@ const ContactUs = () => {
                     <div className="bottom">
                       <div className="text-6">Follow Us:</div>
                       <div className="socials">
-                        <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
+                        <abbr title="Facebook">
+                          <a
+                            target="_blank"
+                            href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d"
+                          >
+                            <div className="icon">
+                              <img src={facebook} alt="" />
+                            </div>
+                          </a>
+                        </abbr>
+                        <abbr title="Instagram">
+                          <a
+                            target="_blank"
+                            href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw=="
+                          >
+                            <div className="icon">
+                              <img src={instagram} alt="" />
+                            </div>
+                          </a>
+                        </abbr>
+                        <abbr title="X(Twitter)">
+                          <a
+                            href="https://twitter.com/Greener1841567"
+                            target="_blank"
+                          >
+                            <div className="icon">
+                              <img src={twitter} alt="" />
+                            </div>
+                          </a>
+                        </abbr>
+                        <abbr title="LinkedIn">
                           <div className="icon">
-                            <img src={facebook} alt="" />
+                            <img src={linkedIn} alt="" />
                           </div>
-                        </a>
-                        <a href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw==">
-                          <div className="icon">
-                            <img src={instagram} alt="" />
-                          </div>
-                        </a>
+                        </abbr>
+                        <abbr title="Youtube">
+                          <a
+                            href="http://www.youtube.com/@GreenerPk"
+                            target="_blank"
+                          >
+                            <div className="icon">
+                              <img src={youtube} alt="" />
+                            </div>
+                          </a>
+                        </abbr>
                       </div>
                     </div>
                   </div>
@@ -264,10 +301,131 @@ const ContactUs = () => {
                 <div className="double-field">
                   <input
                     type="text"
-                    name="address"
-                    placeholder="Residential Address"
+                    name="Company"
+                    placeholder="Company"
                     required
                   />
+                  <input type="text" name="City" placeholder="City" required />
+                </div>
+                <div className="options-fields">
+                  <div className="w-100">
+                    <p className="text-7">How did you hear about us?</p>
+                    <select
+                      name="How did you hear about us?"
+                      placeholder="How did you hear about us?"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="TV Commercial">TV Commercial</option>
+                      <option value="Radio">Radio</option>
+                      <option value="Bill Boards">Bill Boards</option>
+                      <option value="Print Advertisement">
+                        Print Advertisement
+                      </option>
+                      <option value="Youtube">Youtube</option>
+                      <option value="LinkedIn">LinkedIn</option>
+                      <option value="Twitter">Twitter</option>
+                      <option value="Trade Show">Trade Show</option>
+                      <option value="Road Show">Road Show</option>
+                      <option value="Website Advertisement">
+                        Website Advertisement
+                      </option>
+                    </select>
+                  </div>
+                  <div className="w-100">
+                    <p className="text-7">Customer Type</p>
+                    <select
+                      name="Customer Type"
+                      placeholder="Customer Type"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="Residential">Residential</option>
+                      <option value="Commercial">Commercial</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="options-fields">
+                  <div className="w-100">
+                    <p className="text-7">Maximum Summer Electricity Bill?</p>
+                    <select name="Maximum Summer Electricity Bill?" required>
+                      <option value="None">None</option>
+                      <option value="5000">5000</option>
+                      <option value="10000">10000</option>
+                      <option value="15000">15000</option>
+                      <option value="20000">20000</option>
+                      <option value="25000">25000</option>
+                      <option value="30000">30000</option>
+                      <option value="35000">35000</option>
+                      <option value="40000">40000</option>
+                      <option value="45000">45000</option>
+                      <option value="50000">50000</option>
+                      <option value="60000">60000</option>
+                      <option value="70000">70000</option>
+                      <option value="70000+">70000+</option>
+                    </select>
+                  </div>
+                  <div className="w-100">
+                    <p className="text-7">
+                      How many Inverter AC do you want to run?
+                    </p>
+                    <select
+                      name="How many Inverter AC do you want to run?"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="5+">5+</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="options-fields">
+                  <div className="w-100">
+                    <p className="text-7">Property Size</p>
+                    <select name="Property Size" required>
+                      <option value="None">None</option>
+                      <option value="0 to 5 marla or 125 sq yd">
+                        0 to 5 marla or 125 sq yd
+                      </option>
+                      <option value="10 to 19 marla or 250 to 475 sq yd">
+                        10 to 19 marla or 250 to 475 sq yd
+                      </option>
+                      <option value="1 kanal or 500 sq yd">
+                        1 kanal or 500 sq yd
+                      </option>
+                      <option value="2 kanal or 1000 sq yd">
+                        2 kanal or 1000 sq yd
+                      </option>
+                      <option value="3 kanal & above or 1500 sq yd & Above">
+                        3 kanal & above or 1500 sq yd & Above
+                      </option>
+                      <option value="6 to 9 marla or 1500 to 2250 sq yd">
+                        6 to 9 marla or 1500 to 2250 sq yd
+                      </option>
+                    </select>
+                  </div>
+                  <div className="w-100">
+                    <p className="text-7">
+                      How many Inverter AC do you want to run?
+                    </p>
+                    <select
+                      name="How many Inverter AC do you want to run?"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="5+">5+</option>
+                    </select>
+                  </div>
                 </div>
 
                 {/* <div className="file-desc">

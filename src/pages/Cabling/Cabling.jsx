@@ -5,6 +5,7 @@ import one from "../../assets/images/bico.png";
 import two from "../../assets/images/locator.png";
 import three from "../../assets/images/swg.png";
 import four from "../../assets/images/tdr.png";
+import greenervid from "../../assets/greenervid.mp4";
 const Cabling = () => {
   return (
     <div>
@@ -102,14 +103,9 @@ const Cabling = () => {
       <div className="last">
         <div className="inner">
           <div className="text-5 center">HOW IT WORKS?</div>
-          <iframe
-            src="https://www.youtube.com/embed/fX0_FpUk3oU?si=L4LtXZARjU7j5Coy"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+          <video className="videoGreener" controls>
+            <source src={greenervid} type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>

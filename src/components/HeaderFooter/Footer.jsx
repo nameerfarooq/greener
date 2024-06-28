@@ -1,9 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import support from "../../assets/icons/1.png";
-import facebook from "../../assets/icons/facebooknew.png";
-import twitter from "../../assets/icons/twitternew.png";
-import linkedIn from "../../assets/icons/linkedinnew.png";
-import youtube from "../../assets/icons/youtubenew.png";
+
 import logo from "../../assets/images/logowhite.png";
 const Footer = () => {
   const navigate = useNavigate();
@@ -128,30 +124,7 @@ const Footer = () => {
               Greener is more than just a solar company, we're your partners in
               embracing sustainable energy solutions.
             </div>
-            <div className="socials">
-              <abbr title="Facebook">
-                <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
-                  <div className="icon">
-                    <img src={facebook} alt="" />
-                  </div>
-                </a>
-              </abbr>
-              <abbr title="X(Twitter)">
-                <div className="icon">
-                  <img src={twitter} alt="" />
-                </div>
-              </abbr>
-              <abbr title="LinkedIn">
-                <div className="icon">
-                  <img src={linkedIn} alt="" />
-                </div>
-              </abbr>
-              <abbr title="Youtube">
-                <div className="icon">
-                  <img src={youtube} alt="" />
-                </div>
-              </abbr>
-            </div>
+          
           </div>
           <div className="column">
             <div className="text-16">Quick Links</div>
@@ -182,20 +155,32 @@ const Footer = () => {
             <div className="text-16">Services</div>
             <div className="list">
               <ul>
-                <li className="text-18" onClick={() => navigate("/services/#residential-solar")}>
-                Residential Solar System
+                <li
+                  className="text-18"
+                  onClick={() => navigate("/services/#residential-solar")}
+                >
+                  Residential Solar System
                 </li>
-                <li className="text-18" onClick={() => navigate("/services/#commercial-solar")}>
-                Commercial Solar System
+                <li
+                  className="text-18"
+                  onClick={() => navigate("/services/#commercial-solar")}
+                >
+                  Commercial Solar System
                 </li>
-                <li className="text-18" onClick={() => navigate("/services/#industrial-solar")}>
-                Industrial Solar System
+                <li
+                  className="text-18"
+                  onClick={() => navigate("/services/#industrial-solar")}
+                >
+                  Industrial Solar System
                 </li>
-                <li className="text-18" onClick={() => navigate("/services/#solar-maintainance")}>
-                Solar Maintainance & Support
+                <li
+                  className="text-18"
+                  onClick={() => navigate("/services/#solar-maintainance")}
+                >
+                  Solar Maintainance & Support
                 </li>
                 <li className="text-18" onClick={() => navigate("/cabling")}>
-                Underground Cabling Maintainance
+                  Underground Cabling Maintainance
                 </li>
               </ul>
             </div>

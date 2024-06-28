@@ -2,6 +2,7 @@ import email from "../../assets/icons/email.png";
 import phone from "../../assets/icons/phone.png";
 import facebook from "../../assets/icons/facebooknew.png";
 import twitter from "../../assets/icons/twitternew.png";
+import instagram from "../../assets/icons/instagram.png";
 import linkedIn from "../../assets/icons/linkedinnew.png";
 import youtube from "../../assets/icons/youtubenew.png";
 import logo from "../../assets/images/logo.png";
@@ -55,23 +56,38 @@ const Header = () => {
             <div className="icon">
               <img src={phone} alt="" />
             </div>
-            <a href="tel:+922132787711">
-              <div className="text-1">+92-21-32787711</div>
+            <a href="tel:+923458230986">
+              <div className="text-1">+923458230986</div>
             </a>
           </div>
         </div>
         <div className="right">
           <abbr title="Facebook">
-            <a href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d"
+            >
               <div className="icon">
                 <img src={facebook} alt="" />
               </div>
             </a>
           </abbr>
+          <abbr title="Instagram">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw=="
+            >
+              <div className="icon">
+                <img src={instagram} alt="" />
+              </div>
+            </a>
+          </abbr>
           <abbr title="X(Twitter)">
-            <div className="icon">
-              <img src={twitter} alt="" />
-            </div>
+            <a href="https://twitter.com/Greener1841567" target="_blank">
+              <div className="icon">
+                <img src={twitter} alt="" />
+              </div>
+            </a>
           </abbr>
           <abbr title="LinkedIn">
             <div className="icon">
@@ -79,9 +95,11 @@ const Header = () => {
             </div>
           </abbr>
           <abbr title="Youtube">
-            <div className="icon">
-              <img src={youtube} alt="" />
-            </div>
+            <a href="http://www.youtube.com/@GreenerPk" target="_blank">
+              <div className="icon">
+                <img src={youtube} alt="" />
+              </div>
+            </a>
           </abbr>
         </div>
       </div>
