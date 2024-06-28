@@ -74,8 +74,8 @@ const Footer = () => {
             </div>
             <div className="right">
               <div className="text-16">Customer Support</div>
-              <a href="tel:+922132787711">
-                <div className="text-17">+92 21 32787711, 22, 33, 44</div>
+              <a href="tel:+923458230986">
+                <div className="text-17">+923458230986</div>
               </a>{" "}
             </div>
           </div>
@@ -124,7 +124,6 @@ const Footer = () => {
               Greener is more than just a solar company, we're your partners in
               embracing sustainable energy solutions.
             </div>
-          
           </div>
           <div className="column">
             <div className="text-16">Quick Links</div>
