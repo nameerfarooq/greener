@@ -256,6 +256,11 @@ const ContactUs = () => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="inner">
             <div className="form">
               <br />
@@ -410,41 +415,27 @@ const ContactUs = () => {
                     </select>
                   </div>
                   <div className="w-100">
-                    <p className="text-7">
-                      How many Inverter AC do you want to run?
-                    </p>
+                    <p className="text-7">Property Type</p>
                     <select
                       name="How many Inverter AC do you want to run?"
                       required
                     >
                       <option value="None">None</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="5+">5+</option>
+                      <option value="House">House</option>
+                      <option value="Apartment">Apartment</option>
+                      <option value="Factory roof">Factory roof</option>
+                      <option value="Commercial">Commercial</option>
+                      <option value="Farm">Farm</option>
+                      <option value="Shop/Office">Shop/Office</option>
                     </select>
                   </div>
                 </div>
 
-                {/* <div className="file-desc">
-                  <div className="text-7">Front side of previous bill</div>
-                  <div className="text-7">Back side of previous bill</div>
-                </div>
-                <div className="double-field">
-                  <input
-                    id="fileUpload"
-                    type="file"
-                    name="front_image"
-                    required
-                  />
-                  <input id="fileUpload" type="file" name="upload" required />
-                </div> */}
+                <br />
                 <br />
                 <div className="center-margin">
                   <button type="submit" className="nostyle">
-                    <ButtonStyle1 text="Submit" />
+                    <ButtonStyle1 text="Request a meeting" />
                   </button>
                 </div>
               </form>

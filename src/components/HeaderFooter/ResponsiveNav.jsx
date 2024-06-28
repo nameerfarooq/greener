@@ -64,6 +64,11 @@ const ResponsiveNav = () => {
             <NavLink to="/products">
               <div className="item text-2">Products</div>
             </NavLink>
+            <div className="drop-down-collapsed">
+              <Link to="/lvht-cables" className="text-23">
+                LV/HT Cables
+              </Link>
+            </div>
             <NavLink to="/contact">
               <ButtonStyle1 text="Contact Us" />
             </NavLink>
