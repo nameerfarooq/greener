@@ -78,7 +78,7 @@ const Feedback = () => {
                       <input
                         type="radio"
                         required
-                        name="  How easy was it to understand the benefits of our solar
+                        name=" How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Neutral"}
                       />
@@ -88,7 +88,7 @@ const Feedback = () => {
                       <input
                         type="radio"
                         required
-                        name="  How easy was it to understand the benefits of our solar
+                        name=" How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Satisfied"}
                       />
@@ -98,7 +98,7 @@ const Feedback = () => {
                       <input
                         type="radio"
                         required
-                        name="  How easy was it to understand the benefits of our solar
+                        name=" How easy was it to understand the benefits of our solar
                     products/services?"
                         value={"Very Satisfied"}
                       />
