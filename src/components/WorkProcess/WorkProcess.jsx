@@ -14,8 +14,8 @@ const WorkProcess = () => {
             </div>
             <div className="text-6">Project Planning</div>
             <div className="text-7 center">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Develop tailored solar solutions through comprehensive site
+              assessments and detailed system design.
             </div>
           </div>
           <div className="box">
@@ -25,8 +25,8 @@ const WorkProcess = () => {
             </div>
             <div className="text-6">Research & Analysis</div>
             <div className="text-7 center">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Conduct thorough feasibility studies and cost-benefit analyses to
+              ensure optimal solar system performance.
             </div>
           </div>
           <div className="box">
@@ -36,8 +36,8 @@ const WorkProcess = () => {
             </div>
             <div className="text-6">Solar Installation</div>
             <div className="text-7 center">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Expertly install and commission solar systems using high-quality
+              components for maximum efficiency and reliability.
             </div>
           </div>
         </div>

@@ -12,12 +12,13 @@
     }
   }
   .responsive-header-nav-menu-items {
-    padding: 30px;
+    padding: 30px 15px;
     display: flex !important;
     justify-content: center !important;
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
     .item {
+      font-weight: 600;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
       &:hover {
@@ -28,7 +29,7 @@
       display: flex;
       flex-direction: column;
       margin-left: 15px;
-      gap: 10px;
+      gap: 5px;
       a {
         display: list-item;
       }

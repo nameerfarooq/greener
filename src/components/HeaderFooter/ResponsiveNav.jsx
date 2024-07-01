@@ -54,8 +54,18 @@ const ResponsiveNav = () => {
               <Link to="/services/#solar-maintainance" className="text-23">
                 Solar Maintainance & Support
               </Link>
+              <hr />
               <Link to="/cabling" className="text-23">
-                Underground Cabling Maintainance
+                Underground HT/LT Cabling & Maintenance
+              </Link>
+              <Link to="/cabling" className="text-23">
+                HT/LT Cable Jointing
+              </Link>
+              <Link to="/cabling" className="text-23">
+                Sub-Station Service & Maintenance
+              </Link>
+              <Link to="/cabling" className="text-23">
+                New Sub-Station Construction (Civil & Electrical)
               </Link>
             </div>
             <NavLink to="/elc">

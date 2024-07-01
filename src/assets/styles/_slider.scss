@@ -36,3 +36,9 @@
     }
   }
 }
+@media (max-width: 460px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}

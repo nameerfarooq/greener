@@ -14,7 +14,7 @@ const Products = () => {
       <div className="products-page">
         <div className="inner">
           <div className="text-5 center">
-            We Are Pioneers in The World Of Revewable Energy
+            We Are Pioneers in The World Of Renewable Energy
           </div>
         </div>
       </div>

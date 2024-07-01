@@ -47,23 +47,55 @@ const NavMenu = ({
               onMouseLeave={() => exitShowDropDown()}
             >
               <div className="left ">
-                <Link to="/services/#residential-solar" className="text-23">
-                  Residential Solar System
-                </Link>
-                <Link to="/services/#commercial-solar" className="text-23">
-                  Commercial Solar System
-                </Link>
-                <Link to="/services/#industrial-solar" className="text-23">
-                  Industrial Solar System
-                </Link>
-                <Link to="/services/#solar-maintainance" className="text-23">
-                  Solar Maintainance & Support
-                </Link>
+                <ul>
+                  <li>
+                    <Link to="/services/#residential-solar" className="text-23">
+                      Residential Solar System
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/services/#commercial-solar" className="text-23">
+                      Commercial Solar System
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/services/#industrial-solar" className="text-23">
+                      Industrial Solar System
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/services/#solar-maintainance"
+                      className="text-23"
+                    >
+                      Solar Maintainance & Support
+                    </Link>
+                  </li>
+                </ul>
               </div>
               <div className="right">
-                <Link to="/cabling" className="text-23">
-                  Underground Cabling Maintainance
-                </Link>
+                <ul>
+                  <li>
+                    <Link to="/cabling" className="text-23">
+                      Underground HT/LT Cabling & Maintenance
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/cabling" className="text-23">
+                      HT/LT Cable Jointing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/cabling" className="text-23">
+                      Sub-Station Service & Maintenance
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/cabling" className="text-23">
+                      New Sub-Station Construction (Civil & Electrical)
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           )}
