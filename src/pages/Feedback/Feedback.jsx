@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../../components/HeroSection";
 import ButtonStyle1 from "../../components/Buttons/ButtonStyle1";
 import transition from "../../Transition";
@@ -14,7 +13,7 @@ const Feedback = () => {
               <br />
               <br />
               <form
-                action="https://formspree.io/f/mayrvoja"
+                action="https://formspree.io/f/xqazkagk"
                 method="post"
                 enctype="multipart/form-data"
               >

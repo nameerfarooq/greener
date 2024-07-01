@@ -269,7 +269,7 @@ const ContactUs = () => {
               <br />
               <br />
               <form
-                action="https://formspree.io/f/mqkrwdzw"
+                action="https://formspree.io/f/mdknokwq"
                 method="post"
                 enctype="multipart/form-data"
               >
