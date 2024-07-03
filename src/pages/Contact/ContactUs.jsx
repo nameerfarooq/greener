@@ -13,6 +13,222 @@ const ContactUs = () => {
     <div>
       <HeroSection text={"Contact Us"} />
       <div className="contact-us">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="contact-form">
+          <div className="inner">
+            <div className="form">
+              <br />
+              <br />
+              <div className="text-5 center">Get In Touch With Us</div>
+              <br />
+              <br />
+              <form
+                action="https://formspree.io/f/mdknokwq"
+                method="post"
+                enctype="multipart/form-data"
+              >
+                <div className="double-field">
+                  <input
+                    type="text"
+                    name="First_name"
+                    placeholder="First Name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    required
+                    name="Last_name"
+                    placeholder="Last Name"
+                  />
+                </div>
+
+                <div className="double-field">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <input
+                    type="tel"
+                    min={"0"}
+                    name="contact"
+                    placeholder="Contact Number"
+                    required
+                  />
+                </div>
+                <div className="double-field">
+                  <input
+                    type="text"
+                    name="Company"
+                    placeholder="Company"
+                    required
+                  />
+                  <input type="text" name="City" placeholder="City" required />
+                </div>
+                <div className="options-fields">
+                  <div className="w-100">
+                    <p className="text-7">How did you hear about us?</p>
+                    <select
+                      name="How did you hear about us?"
+                      placeholder="How did you hear about us?"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="TV Commercial">TV Commercial</option>
+                      <option value="Radio">Radio</option>
+                      <option value="Bill Boards">Bill Boards</option>
+                      <option value="Print Advertisement">
+                        Print Advertisement
+                      </option>
+                      <option value="Youtube">Youtube</option>
+                      <option value="LinkedIn">LinkedIn</option>
+                      <option value="Twitter">Twitter</option>
+                      <option value="Trade Show">Trade Show</option>
+                      <option value="Road Show">Road Show</option>
+                      <option value="Website Advertisement">
+                        Website Advertisement
+                      </option>
+                    </select>
+                  </div>
+                  <div className="w-100">
+                    <p className="text-7">Customer Type</p>
+                    <select
+                      name="Customer Type"
+                      placeholder="Customer Type"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="Residential">Residential</option>
+                      <option value="Commercial">Commercial</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="options-fields">
+                  <div className="w-100">
+                    <p className="text-7">Maximum Summer Electricity Bill?</p>
+                    <select name="Maximum Summer Electricity Bill?" required>
+                      <option value="None">None</option>
+                      <option value="5000">5000</option>
+                      <option value="10000">10000</option>
+                      <option value="15000">15000</option>
+                      <option value="20000">20000</option>
+                      <option value="25000">25000</option>
+                      <option value="30000">30000</option>
+                      <option value="35000">35000</option>
+                      <option value="40000">40000</option>
+                      <option value="45000">45000</option>
+                      <option value="50000">50000</option>
+                      <option value="60000">60000</option>
+                      <option value="70000">70000</option>
+                      <option value="70000+">70000+</option>
+                    </select>
+                  </div>
+                  <div className="w-100">
+                    <p className="text-7">
+                      How many Inverter AC do you want to run?
+                    </p>
+                    <select
+                      name="How many Inverter AC do you want to run?"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="5+">5+</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="options-fields">
+                  <div className="w-100">
+                    <p className="text-7">Property Size</p>
+                    <select name="Property Size" required>
+                      <option value="None">None</option>
+                      <option value="0 to 5 marla or 125 sq yd">
+                        0 to 5 marla or 125 sq yd
+                      </option>
+                      <option value="10 to 19 marla or 250 to 475 sq yd">
+                        10 to 19 marla or 250 to 475 sq yd
+                      </option>
+                      <option value="1 kanal or 500 sq yd">
+                        1 kanal or 500 sq yd
+                      </option>
+                      <option value="2 kanal or 1000 sq yd">
+                        2 kanal or 1000 sq yd
+                      </option>
+                      <option value="3 kanal & above or 1500 sq yd & Above">
+                        3 kanal & above or 1500 sq yd & Above
+                      </option>
+                      <option value="6 to 9 marla or 1500 to 2250 sq yd">
+                        6 to 9 marla or 1500 to 2250 sq yd
+                      </option>
+                    </select>
+                  </div>
+                  <div className="w-100">
+                    <p className="text-7">Property Type</p>
+                    <select
+                      name="How many Inverter AC do you want to run?"
+                      required
+                    >
+                      <option value="None">None</option>
+                      <option value="House">House</option>
+                      <option value="Apartment">Apartment</option>
+                      <option value="Factory roof">Factory roof</option>
+                      <option value="Commercial">Commercial</option>
+                      <option value="Farm">Farm</option>
+                      <option value="Shop/Office">Shop/Office</option>
+                    </select>
+                  </div>
+                </div>
+
+                <br />
+                <br />
+                <div className="center-margin">
+                  <button type="submit" className="nostyle">
+                    <ButtonStyle1 text="Request a meeting" />
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div className="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1863356834956!2d67.03921448646864!3d24.857484721028523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e7e78b508ad%3A0x9f9e02c208d97ced!2sSea%20Breeze%20Plaza%2C%20Shahrah-e-Faisal%20Rd%2C%20Karachi%20Cantonment%20Fowler%20Lines%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1713733913497!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="contact-options">
           <div className="inner">
             <div className="text-5">Happy to Answer All Your Questions</div>
@@ -241,216 +457,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="contact-form">
-          <div className="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.1863356834956!2d67.03921448646864!3d24.857484721028523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e7e78b508ad%3A0x9f9e02c208d97ced!2sSea%20Breeze%20Plaza%2C%20Shahrah-e-Faisal%20Rd%2C%20Karachi%20Cantonment%20Fowler%20Lines%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1713733913497!5m2!1sen!2s"
-              width="100%"
-              height="100%"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div className="inner">
-            <div className="form">
-              <br />
-              <br />
-              <div className="text-5 center">Get In Touch With Us</div>
-              <br />
-              <br />
-              <form
-                action="https://formspree.io/f/mdknokwq"
-                method="post"
-                enctype="multipart/form-data"
-              >
-                <div className="double-field">
-                  <input
-                    type="text"
-                    name="First_name"
-                    placeholder="First Name"
-                    required
-                  />
-                  <input
-                    type="text"
-                    required
-                    name="Last_name"
-                    placeholder="Last Name"
-                  />
-                </div>
-
-                <div className="double-field">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
-                    required
-                  />
-                  <input
-                    type="tel"
-                    min={"0"}
-                    name="contact"
-                    placeholder="Contact Number"
-                    required
-                  />
-                </div>
-                <div className="double-field">
-                  <input
-                    type="text"
-                    name="Company"
-                    placeholder="Company"
-                    required
-                  />
-                  <input type="text" name="City" placeholder="City" required />
-                </div>
-                <div className="options-fields">
-                  <div className="w-100">
-                    <p className="text-7">How did you hear about us?</p>
-                    <select
-                      name="How did you hear about us?"
-                      placeholder="How did you hear about us?"
-                      required
-                    >
-                      <option value="None">None</option>
-                      <option value="Facebook">Facebook</option>
-                      <option value="TV Commercial">TV Commercial</option>
-                      <option value="Radio">Radio</option>
-                      <option value="Bill Boards">Bill Boards</option>
-                      <option value="Print Advertisement">
-                        Print Advertisement
-                      </option>
-                      <option value="Youtube">Youtube</option>
-                      <option value="LinkedIn">LinkedIn</option>
-                      <option value="Twitter">Twitter</option>
-                      <option value="Trade Show">Trade Show</option>
-                      <option value="Road Show">Road Show</option>
-                      <option value="Website Advertisement">
-                        Website Advertisement
-                      </option>
-                    </select>
-                  </div>
-                  <div className="w-100">
-                    <p className="text-7">Customer Type</p>
-                    <select
-                      name="Customer Type"
-                      placeholder="Customer Type"
-                      required
-                    >
-                      <option value="None">None</option>
-                      <option value="Residential">Residential</option>
-                      <option value="Commercial">Commercial</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="options-fields">
-                  <div className="w-100">
-                    <p className="text-7">Maximum Summer Electricity Bill?</p>
-                    <select name="Maximum Summer Electricity Bill?" required>
-                      <option value="None">None</option>
-                      <option value="5000">5000</option>
-                      <option value="10000">10000</option>
-                      <option value="15000">15000</option>
-                      <option value="20000">20000</option>
-                      <option value="25000">25000</option>
-                      <option value="30000">30000</option>
-                      <option value="35000">35000</option>
-                      <option value="40000">40000</option>
-                      <option value="45000">45000</option>
-                      <option value="50000">50000</option>
-                      <option value="60000">60000</option>
-                      <option value="70000">70000</option>
-                      <option value="70000+">70000+</option>
-                    </select>
-                  </div>
-                  <div className="w-100">
-                    <p className="text-7">
-                      How many Inverter AC do you want to run?
-                    </p>
-                    <select
-                      name="How many Inverter AC do you want to run?"
-                      required
-                    >
-                      <option value="None">None</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="5+">5+</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="options-fields">
-                  <div className="w-100">
-                    <p className="text-7">Property Size</p>
-                    <select name="Property Size" required>
-                      <option value="None">None</option>
-                      <option value="0 to 5 marla or 125 sq yd">
-                        0 to 5 marla or 125 sq yd
-                      </option>
-                      <option value="10 to 19 marla or 250 to 475 sq yd">
-                        10 to 19 marla or 250 to 475 sq yd
-                      </option>
-                      <option value="1 kanal or 500 sq yd">
-                        1 kanal or 500 sq yd
-                      </option>
-                      <option value="2 kanal or 1000 sq yd">
-                        2 kanal or 1000 sq yd
-                      </option>
-                      <option value="3 kanal & above or 1500 sq yd & Above">
-                        3 kanal & above or 1500 sq yd & Above
-                      </option>
-                      <option value="6 to 9 marla or 1500 to 2250 sq yd">
-                        6 to 9 marla or 1500 to 2250 sq yd
-                      </option>
-                    </select>
-                  </div>
-                  <div className="w-100">
-                    <p className="text-7">Property Type</p>
-                    <select
-                      name="How many Inverter AC do you want to run?"
-                      required
-                    >
-                      <option value="None">None</option>
-                      <option value="House">House</option>
-                      <option value="Apartment">Apartment</option>
-                      <option value="Factory roof">Factory roof</option>
-                      <option value="Commercial">Commercial</option>
-                      <option value="Farm">Farm</option>
-                      <option value="Shop/Office">Shop/Office</option>
-                    </select>
-                  </div>
-                </div>
-
-                <br />
-                <br />
-                <div className="center-margin">
-                  <button type="submit" className="nostyle">
-                    <ButtonStyle1 text="Request a meeting" />
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 };
