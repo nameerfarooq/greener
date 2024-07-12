@@ -49,7 +49,7 @@ const Socials = () => {
         </a>
       </abbr>
       <abbr title="Pinterest">
-        <a href="http://www.youtube.com/@GreenerPk" target="_blank">
+        <a href="https://pin.it/4yIEZRRc3" target="_blank">
           <div className="icon">
             <FaPinterest size={22} color="#7Ed957" />
           </div>
