@@ -376,7 +376,9 @@ const ContactUs = () => {
                     <div className="bottom">
                       <div className="text-6">Phone:</div>
                       <div>
-                        <div className="text-7">Tel No : +92 345 8230986</div>
+                        <div className="text-7">
+                          Tel No : <br /> 03331111526, 032811GREEN
+                        </div>
                         <div className="text-7">Fax No : +92 21 32791115</div>
                       </div>
                     </div>

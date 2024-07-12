@@ -56,8 +56,8 @@ const Header = () => {
             <div className="icon">
               <img src={phone} alt="" />
             </div>
-            <a href="tel:+923458230986">
-              <div className="text-1">+923458230986</div>
+            <a href="tel:+923331111526">
+              <div className="text-1">0333-1111526</div>
             </a>
           </div>
         </div>
@@ -81,6 +81,11 @@ const Header = () => {
                 <img src={instagram} alt="" />
               </div>
             </a>
+          </abbr>{" "}
+          <abbr title="LinkedIn">
+            <div className="icon">
+              <img src={linkedIn} alt="" />
+            </div>
           </abbr>
           <abbr title="X(Twitter)">
             <a href="https://twitter.com/Greener1841567" target="_blank">
@@ -89,12 +94,14 @@ const Header = () => {
               </div>
             </a>
           </abbr>
-          <abbr title="LinkedIn">
-            <div className="icon">
-              <img src={linkedIn} alt="" />
-            </div>
-          </abbr>
           <abbr title="Youtube">
+            <a href="http://www.youtube.com/@GreenerPk" target="_blank">
+              <div className="icon">
+                <img src={youtube} alt="" />
+              </div>
+            </a>
+          </abbr>
+          <abbr title="Pinterest">
             <a href="http://www.youtube.com/@GreenerPk" target="_blank">
               <div className="icon">
                 <img src={youtube} alt="" />
