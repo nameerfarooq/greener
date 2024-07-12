@@ -8,6 +8,7 @@ import youtube from "../../assets/icons/youtubenew.png";
 
 import ButtonStyle1 from "../../components/Buttons/ButtonStyle1";
 import transition from "../../Transition";
+import Socials from "../../components/Socials/Socials";
 const ContactUs = () => {
   return (
     <div>
@@ -406,51 +407,7 @@ const ContactUs = () => {
                     <div className="bottom">
                       <div className="text-6">Follow Us:</div>
                       <div className="socials">
-                        <abbr title="Facebook">
-                          <a
-                            target="_blank"
-                            href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d"
-                          >
-                            <div className="icon">
-                              <img src={facebook} alt="" />
-                            </div>
-                          </a>
-                        </abbr>
-                        <abbr title="Instagram">
-                          <a
-                            target="_blank"
-                            href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw=="
-                          >
-                            <div className="icon">
-                              <img src={instagram} alt="" />
-                            </div>
-                          </a>
-                        </abbr>
-                        <abbr title="X(Twitter)">
-                          <a
-                            href="https://twitter.com/Greener1841567"
-                            target="_blank"
-                          >
-                            <div className="icon">
-                              <img src={twitter} alt="" />
-                            </div>
-                          </a>
-                        </abbr>
-                        <abbr title="LinkedIn">
-                          <div className="icon">
-                            <img src={linkedIn} alt="" />
-                          </div>
-                        </abbr>
-                        <abbr title="Youtube">
-                          <a
-                            href="http://www.youtube.com/@GreenerPk"
-                            target="_blank"
-                          >
-                            <div className="icon">
-                              <img src={youtube} alt="" />
-                            </div>
-                          </a>
-                        </abbr>
+                        <Socials />
                       </div>
                     </div>
                   </div>

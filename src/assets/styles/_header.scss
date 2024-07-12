@@ -36,24 +36,14 @@
       @include centerAll;
       gap: 10px;
       .icon {
-        width: 26px;
-        height: 26px;
-        border-radius: 7px;
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
         @include centerAll;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
-        img {
-          width: 18px;
-          height: 18px;
-          object-fit: contain;
-        }
-        background-color: var(--blackColor);
-        &:hover {
-          background-color: var(--primaryColor);
-          img {
-            filter: brightness(0%);
-          }
-        }
+
+        background-color: var(--whiteColor);
       }
     }
   }

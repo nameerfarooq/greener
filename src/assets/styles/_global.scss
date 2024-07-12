@@ -766,13 +766,8 @@ a {
                       filter: brightness(0%);
                       object-fit: contain;
                     }
-                    background-color: var(--primaryColor);
-                    &:hover {
-                      background-color: var(--blackColor);
-                      img {
-                        filter: brightness(100%);
-                      }
-                    }
+                    background-color: var(--whiteColor);
+                    
                   }
                 }
               }

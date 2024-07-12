@@ -11,6 +11,15 @@ import ResponsiveNav from "./ResponsiveNav";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaPinterest,
+  FaYoutube,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import Socials from "../Socials/Socials";
 
 const Header = () => {
   const [showDropDown, setshowDropDown] = useState(false);
@@ -62,52 +71,7 @@ const Header = () => {
           </div>
         </div>
         <div className="right">
-          <abbr title="Facebook">
-            <a
-              target="_blank"
-              href="https://www.facebook.com/profile.php?id=61557987998333&mibextid=LQQJ4d"
-            >
-              <div className="icon">
-                <img src={facebook} alt="" />
-              </div>
-            </a>
-          </abbr>
-          <abbr title="Instagram">
-            <a
-              target="_blank"
-              href="https://www.instagram.com/greener.pk?igsh=MWdxcnNoZTQwYzN0Nw=="
-            >
-              <div className="icon">
-                <img src={instagram} alt="" />
-              </div>
-            </a>
-          </abbr>{" "}
-          <abbr title="LinkedIn">
-            <div className="icon">
-              <img src={linkedIn} alt="" />
-            </div>
-          </abbr>
-          <abbr title="X(Twitter)">
-            <a href="https://twitter.com/Greener1841567" target="_blank">
-              <div className="icon">
-                <img src={twitter} alt="" />
-              </div>
-            </a>
-          </abbr>
-          <abbr title="Youtube">
-            <a href="http://www.youtube.com/@GreenerPk" target="_blank">
-              <div className="icon">
-                <img src={youtube} alt="" />
-              </div>
-            </a>
-          </abbr>
-          <abbr title="Pinterest">
-            <a href="http://www.youtube.com/@GreenerPk" target="_blank">
-              <div className="icon">
-                <img src={youtube} alt="" />
-              </div>
-            </a>
-          </abbr>
+          <Socials />
         </div>
       </div>
       <div
