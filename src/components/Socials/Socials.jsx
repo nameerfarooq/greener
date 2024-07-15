@@ -30,9 +30,14 @@ const Socials = () => {
         </a>
       </abbr>{" "}
       <abbr title="LinkedIn">
-        <div className="icon">
-          <FaLinkedin size={22} color="#7Ed957" />
-        </div>
+        <a
+          href="https://www.linkedin.com/in/greener-pakistan-7b5a6a319/"
+          target="_blank"
+        >
+          <div className="icon">
+            <FaLinkedin size={22} color="#7Ed957" />
+          </div>
+        </a>
       </abbr>
       <abbr title="X(Twitter)">
         <a href="https://twitter.com/Greener1841567" target="_blank">
