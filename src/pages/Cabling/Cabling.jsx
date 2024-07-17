@@ -102,7 +102,7 @@ const Cabling = () => {
       </div>
       <div className="last">
         <div className="inner">
-          <div className="text-5 center">HOW IT WORKS?</div>
+          <div className="text-5 center">HOW IT WORKS? </div>
           <video className="videoGreener" controls>
             <source src={greenervid} type="video/mp4" />
           </video>
