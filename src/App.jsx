@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -19,6 +19,7 @@ import { AnimatePresence } from "framer-motion";
 import Cabling from "./pages/Cabling/Cabling";
 import LVCables from "./pages/Products/LVCables";
 import ScrollToTop from "react-scroll-to-top";
+import EVCharging from "./pages/EVCharging/EVCharging";
 
 const App = () => {
   const location = useLocation();
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/lvht-cables" element={<LVCables />} />
+          <Route path="/ev" element={<EVCharging />} />
         </Routes>
       </AnimatePresence>
       <Marquee gradient={true} loop={0} pauseOnHover={true}>

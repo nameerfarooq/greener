@@ -767,7 +767,6 @@ a {
                       object-fit: contain;
                     }
                     background-color: var(--whiteColor);
-                    
                   }
                 }
               }
@@ -780,8 +779,8 @@ a {
   .contact-form {
     position: relative;
     width: 100%;
-    height:100%;
-    .map{
+    height: 100%;
+    .map {
       width: 100%;
       height: 400px;
     }
@@ -960,7 +959,80 @@ a {
     }
   }
 }
+.ev-section {
+  width: 100%;
+  .inner {
+    @include centerAll;
+    gap: 50px;
+    margin: 10% auto;
+    width: 85%;
 
+    .left {
+      position: relative;
+      width: 48%;
+      height: 500px;
+      .image1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../images/ev1.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 450px;
+        height: 430px;
+        z-index: 3;
+      }
+      .image3 {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-image: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/about-right-shape.svg");
+        background-size: cover;
+        background-position: center;
+        width: 105px;
+        height: 280px;
+        z-index: 1;
+      }
+      .image2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url("../images/ev2.webp");
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 300px;
+        height: 230px;
+        z-index: 4;
+        border: 8px solid var(--whiteColor);
+      }
+    }
+    .right {
+      width: 52%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .points {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        .point {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          width: 270px;
+          .icon img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}
 ::-webkit-scrollbar {
   width: 5px; /* adjust as needed */
 }
@@ -1041,6 +1113,77 @@ a {
         bottom: 0;
         right: 0;
         background-image: url("../images/underground2.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 300px;
+        height: 230px;
+        z-index: 4;
+        border: 8px solid var(--whiteColor);
+      }
+    }
+    .right {
+      width: 52%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .points {
+        margin-block: 10px;
+        .point {
+          margin-block: 10px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          .icon img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+  }
+}
+.ev2 {
+  .inner {
+    @include centerAll;
+    gap: 50px;
+    margin: 5% auto;
+    width: 85%;
+    flex-direction: row-reverse;
+    .left {
+      position: relative;
+      width: 48%;
+      height: 500px;
+      .image1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../images/ev4.jpg");
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        width: 450px;
+        height: 430px;
+        z-index: 3;
+      }
+      .image3 {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-image: url("https://demo.awaikenthemes.com/solor/wp-content/uploads/2024/03/about-right-shape.svg");
+        background-size: cover;
+        background-position: center;
+        width: 105px;
+        height: 280px;
+        z-index: 1;
+      }
+      .image2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-image: url("../images/ev3.webp");
         background-size: cover;
         background-position: center;
         border-radius: 20px;
@@ -1161,7 +1304,6 @@ a {
       .right {
         flex: 1;
         min-width: 275px;
-
       }
       .left {
         img {
@@ -1250,7 +1392,57 @@ a {
   .options-fields {
     flex-wrap: wrap;
   }
-  .short{
+  .short {
     font-size: 32px !important;
+  }
+}
+
+.items-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  .service-item {
+    width: 380px;
+    min-width: 200px;
+    height: 80px;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    &:hover {
+      background-color: #005e29;
+    }
+  }
+}
+
+.EV_section_1 {
+  margin: 80px auto;
+  padding: 10px;
+  h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: Rajdhani, sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(126, 217, 87);
+  }
+  p {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(22, 51, 0);
+    text-align: center;
   }
 }

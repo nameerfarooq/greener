@@ -1,24 +1,24 @@
 import email from "../../assets/icons/email.png";
 import phone from "../../assets/icons/phone.png";
-import facebook from "../../assets/icons/facebooknew.png";
-import twitter from "../../assets/icons/twitternew.png";
-import instagram from "../../assets/icons/instagram.png";
-import linkedIn from "../../assets/icons/linkedinnew.png";
-import youtube from "../../assets/icons/youtubenew.png";
+// import facebook from "../../assets/icons/facebooknew.png";
+// import twitter from "../../assets/icons/twitternew.png";
+// import instagram from "../../assets/icons/instagram.png";
+// import linkedIn from "../../assets/icons/linkedinnew.png";
+// import youtube from "../../assets/icons/youtubenew.png";
 import logo from "../../assets/images/logo.png";
 import NavMenu from "./NavMenu";
 import ResponsiveNav from "./ResponsiveNav";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaPinterest,
-  FaYoutube,
-} from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+// import {
+//   FaFacebook,
+//   FaInstagram,
+//   FaLinkedin,
+//   FaPinterest,
+//   FaYoutube,
+// } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 import Socials from "../Socials/Socials";
 
 const Header = () => {

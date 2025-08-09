@@ -75,7 +75,9 @@ const Footer = () => {
             <div className="right">
               <div className="text-16">Customer Support</div>
               <a href="tel:+923458230986">
-                <div className="text-17">0333-1111526, 0328-11GREEN</div>
+                <div className="text-17">
+                  0333-1111526, 0328-11GREEN, <br /> 0339-GREENER
+                </div>
               </a>{" "}
             </div>
           </div>
@@ -112,7 +114,7 @@ const Footer = () => {
                 target="_blank"
                 href="https://maps.app.goo.gl/jRfuxs51kFgvUdkg7"
               >
-                <div className="text-17">Shahra-e-Faisal, Karachi</div>
+                <div className="text-17">Shahrea-e-Faisal, Karachi</div>
               </a>
             </div>
           </div>
@@ -154,6 +156,9 @@ const Footer = () => {
             <div className="text-16">Services</div>
             <div className="list">
               <ul>
+                <li className="text-18" onClick={() => navigate("/ev")}>
+                  EV Charging
+                </li>
                 <li
                   className="text-18"
                   onClick={() => navigate("/services/#residential-solar")}

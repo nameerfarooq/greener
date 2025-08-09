@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 import HeroSection from "../../components/HeroSection";
-import facebook from "../../assets/icons/facebooknew.png";
-import twitter from "../../assets/icons/twitternew.png";
-import instagram from "../../assets/icons/instagram.png";
-import linkedIn from "../../assets/icons/linkedinnew.png";
-import youtube from "../../assets/icons/youtubenew.png";
+// import facebook from "../../assets/icons/facebooknew.png";
+// import twitter from "../../assets/icons/twitternew.png";
+// import instagram from "../../assets/icons/instagram.png";
+// import linkedIn from "../../assets/icons/linkedinnew.png";
+// import youtube from "../../assets/icons/youtubenew.png";
 
 import ButtonStyle1 from "../../components/Buttons/ButtonStyle1";
 import transition from "../../Transition";
@@ -32,7 +32,7 @@ const ContactUs = () => {
               <form
                 action="https://formspree.io/f/mdknokwq"
                 method="post"
-                enctype="multipart/form-data"
+                encType="multipart/form-data"
               >
                 <div className="double-field">
                   <input
@@ -218,7 +218,7 @@ const ContactUs = () => {
               height="100%"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
@@ -270,7 +270,7 @@ const ContactUs = () => {
                       <div>
                         <div className="text-7">
                           Suite # 105, 1st Floor, Sea Breeze Plaza,
-                          Shahra-e-Faisal, Karachi- 75330, Pakistan.
+                          Shahrea-e-Faisal, Karachi- 75330, Pakistan.
                         </div>
                       </div>
                     </div>
@@ -331,6 +331,7 @@ const ContactUs = () => {
                       <div className="text-6">Email:</div>
                       <div>
                         <div className="text-7">info@greener.com.pk</div>
+                        <div className="text-7">habib@greener.com.pk</div>
                       </div>
                     </div>
                   </div>
@@ -378,7 +379,7 @@ const ContactUs = () => {
                       <div className="text-6">Phone:</div>
                       <div>
                         <div className="text-7">
-                          Tel No : <br /> 03331111526, 032811GREEN
+                          Tel No : <br /> 03331111526, 032811GREEN, 0339-GREENER
                         </div>
                         <div className="text-7">Fax No : +92 21 32791115</div>
                       </div>

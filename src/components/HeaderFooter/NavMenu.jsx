@@ -49,6 +49,11 @@ const NavMenu = ({
               <div className="left ">
                 <ul>
                   <li>
+                    <Link to="/ev" className="text-23">
+                      EV Charging
+                    </Link>
+                  </li>
+                  <li>
                     <Link to="/services/#residential-solar" className="text-23">
                       Residential Solar System
                     </Link>

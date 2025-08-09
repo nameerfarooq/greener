@@ -60,6 +60,8 @@
   }
   .why-us .inner .right,
   .power .inner .right,
+  .ev2 .inner .right,
+  .ev-section .inner .right ,
   .about-section .inner .right {
     width: 90% !important;
   }
@@ -136,6 +138,7 @@
   html {
     font-size: 9px !important;
   }
+  .ev-section .inner .left ,
   .about-section .inner .left {
     width: 100% !important;
     .image1 {
@@ -143,6 +146,7 @@
     }
   }
   .why-us .inner .left,
+  .ev2 .inner .left ,
   .power .inner .left {
     width: 100% !important;
     .image1 {
@@ -174,7 +178,9 @@
     }
   }
   .about-section .inner .left .image2,
+  .ev-section .inner .left .image2,
   .why-us .inner .left .image2,
+  .ev2 .inner .left .image2 ,
   .power .inner .left .image2 {
     width: 70%;
   }
@@ -232,7 +238,17 @@
       width: 75%;
     }
   }
+  .ev-section .inner {
+    flex-wrap: wrap;
+    .left {
+      width: 70%;
+    }
+    .right {
+      width: 75%;
+    }
+  }
   .why-us .inner,
+  .ev2 .inner ,
   .power .inner {
     flex-wrap: wrap;
     .left {

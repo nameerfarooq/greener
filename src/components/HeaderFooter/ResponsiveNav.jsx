@@ -2,14 +2,14 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
+// import List from "@mui/material/List";
+// import Divider from "@mui/material/Divider";
+// import ListItem from "@mui/material/ListItem";
+// import ListItemButton from "@mui/material/ListItemButton";
+// import ListItemIcon from "@mui/material/ListItemIcon";
+// import ListItemText from "@mui/material/ListItemText";
+// import InboxIcon from "@mui/icons-material/MoveToInbox";
+// import MailIcon from "@mui/icons-material/Mail";
 import { Link, NavLink } from "react-router-dom";
 import ButtonStyle1 from "../Buttons/ButtonStyle1";
 import menu from "../../assets/icons/menu.png";
@@ -23,7 +23,7 @@ const ResponsiveNav = () => {
     <div className="responsive-header-nav">
       <Button onClick={toggleDrawer(true)}>
         {" "}
-        <img width={40} src={menu} alt="" srcset="" />{" "}
+        <img width={40} src={menu} alt="" srcSet="" />{" "}
       </Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         <Box
@@ -42,6 +42,9 @@ const ResponsiveNav = () => {
               <div className="item text-2">Services</div>
             </NavLink>
             <div className="drop-down-collapsed">
+              <Link to="/ev" className="text-23">
+                EV Charging
+              </Link>
               <Link to="/services/#residential-solar" className="text-23">
                 Residential Solar System
               </Link>
